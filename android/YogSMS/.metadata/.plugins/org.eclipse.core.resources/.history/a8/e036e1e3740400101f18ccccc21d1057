@@ -1,0 +1,38 @@
+package local.yogsms;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.telephony.SmsManager;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class Main extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        Button b = (Button)this.findViewById(R.id.btn_send);
+        /* Make that Button handle clicks to itself. */
+        b.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				try
+				{
+					SmsManager smsMan = android.telephony.SmsManager.getDefault();
+					smsMan.sendTextMessage("0660133773", "", "mon premier message SMS envoyé par code", null, null);
+					Log.d("YogSMS", "SMS sent");
+				}
+				catch(Exception e)
+				{
+					Log.e("YogSMS", e.toString());
+				}
+			}
+		});
+
+    }
+}

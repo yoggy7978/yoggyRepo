@@ -1,0 +1,1629 @@
+!SESSION 2010-12-08 11:34:17.792 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.ui 2 0 2010-12-08 11:35:29.686
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2010-12-08 11:35:29.686
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2010-12-08 11:35:29.686
+!MESSAGE "Eclipse EGit (Incubation)" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 2 0 2010-12-08 11:35:29.686
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2010-12-08 11:35:29.686
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2010-12-08 11:35:29.686
+!MESSAGE "Eclipse EGit (Incubation)" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 2 0 2010-12-08 11:35:29.760
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2010-12-08 11:35:29.760
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2010-12-08 11:35:29.760
+!MESSAGE "Eclipse EGit (Incubation)" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2010-12-08 11:35:45.436
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2010-12-08 11:35:45.436
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10005 2010-12-08 11:35:45.436
+!MESSAGE "Eclipse EGit (Incubation)" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2010-12-08 11:35:45.446
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2010-12-08 11:35:45.446
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10005 2010-12-08 11:35:45.446
+!MESSAGE "Eclipse EGit (Incubation)" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2010-12-08 11:35:45.555
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2010-12-08 11:35:45.555
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10005 2010-12-08 11:35:45.555
+!MESSAGE "Eclipse EGit (Incubation)" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_javaviewer_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.propertysheet/doc-html/ui_propertysheet_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.compare.examples.xml/doc-html/ui_xmlcompare_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_hoverhelp_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.readmetool/doc-html/ui_readmetool_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.team.examples.filesystem/doc-html/team_localhistory_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_fileviewer_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.team.examples.filesystem/doc-html/team_filesystem_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_helloworld_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_texteditor_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.paint/doc-html/swt_paint_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.controls/doc-html/swt_controls_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.javaeditor/doc-html/ui_javaeditor_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.126
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.controls/doc-html/swt_customcontrols_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.team.examples.filesystem/doc-html/team_model_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.ole.win32/doc-html/swt_ole_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_manual_setup.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_imageanalyzer_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.multipageeditor/doc-html/ui_multipageeditor_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_addressbook_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.fieldassist/doc-html/ui_fieldassist_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.launcher/doc-html/swt_launcher_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples/doc-html/swt_clipboard_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.browser/doc-html/swt_browser_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.swt.examples.layouts/doc-html/swt_layout_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.compare.examples/doc-html/ui_structurecreator_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.undo/doc-html/ui_undo_ex.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2010-12-08 11:37:39.127
+!MESSAGE Help document /org.eclipse.platform.doc.isv/samples/org.eclipse.ui.examples.javaeditor/doc-html/ui_templateeditor_ex.html cannot be opened.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-08 11:39:08.441
+!MESSAGE Failed to load properties file for project 'YogSMS'
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-08 11:39:09.719
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.ResourceManagerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-08 11:39:09.721
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-08 11:39:09.721
+!MESSAGE Project target not loaded yet.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-08 11:39:09.763
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-08 11:39:09.763
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-08 11:39:09.763
+!MESSAGE Project target not loaded yet.
+!SESSION 2010-12-10 09:53:48.162 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-12-10 09:53:57.052
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-10 09:54:12.681
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.ResourceManagerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-10 09:54:12.683
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-10 09:54:12.683
+!MESSAGE Project target not loaded yet.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-10 09:54:12.710
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-10 09:54:12.711
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-10 09:54:12.711
+!MESSAGE Project target not loaded yet.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.504
+!MESSAGE Bundle file URL not found at path '/gscripts/IViewRule.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.506
+!MESSAGE Bundle file URL not found at path '/gscripts/String.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.510
+!MESSAGE Bundle file URL not found at path '/gscripts/Map.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.514
+!MESSAGE Bundle file URL not found at path '/gscripts/INode.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.515
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.517
+!MESSAGE Bundle file URL not found at path '/gscripts/List.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.520
+!MESSAGE Bundle file URL not found at path '/gscripts/IMenuCallback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.522
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Action.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.527
+!MESSAGE Bundle file URL not found at path '/gscripts/Boolean.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.529
+!MESSAGE Bundle file URL not found at path '/gscripts/INodeHandler.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.532
+!MESSAGE Bundle file URL not found at path '/gscripts/Set.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.537
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Choices.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.542
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Group.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.546
+!MESSAGE Bundle file URL not found at path '/gscripts/IAttributeInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.557
+!MESSAGE Bundle file URL not found at path '/gscripts/IGraphics.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.559
+!MESSAGE Bundle file URL not found at path '/gscripts/Rect.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.561
+!MESSAGE Bundle file URL not found at path '/gscripts/DrawingStyle.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.565
+!MESSAGE Bundle file URL not found at path '/gscripts/IDragElement.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.567
+!MESSAGE Bundle file URL not found at path '/gscripts/DropFeedback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.571
+!MESSAGE Bundle file URL not found at path '/gscripts/Point.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.576
+!MESSAGE Bundle file URL not found at path '/gscripts/_rules_engine.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.759
+!MESSAGE Bundle file URL not found at path '/gscripts/ANDROID_URI.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.772
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_ID.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.804
+!MESSAGE Bundle file URL not found at path '/gscripts/Closure.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:28.817
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_TEXT.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:29.321
+!MESSAGE Bundle file URL not found at path '/gscripts/AndroidViewViewRuleBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:58:29.323
+!MESSAGE Bundle file URL not found at path '/gscripts/BaseViewBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.429
+!MESSAGE Bundle file URL not found at path '/gscripts/String.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.431
+!MESSAGE Bundle file URL not found at path '/gscripts/INode.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.432
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.433
+!MESSAGE Bundle file URL not found at path '/gscripts/List.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.435
+!MESSAGE Bundle file URL not found at path '/gscripts/ANDROID_URI.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.452
+!MESSAGE Bundle file URL not found at path '/gscripts/IMenuCallback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.453
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Action.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.455
+!MESSAGE Bundle file URL not found at path '/gscripts/Boolean.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.467
+!MESSAGE Bundle file URL not found at path '/gscripts/INodeHandler.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.469
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Choices.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.471
+!MESSAGE Bundle file URL not found at path '/gscripts/IDragElement.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.472
+!MESSAGE Bundle file URL not found at path '/gscripts/DropFeedback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.486
+!MESSAGE Bundle file URL not found at path '/gscripts/IFeedbackPainter.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.487
+!MESSAGE Bundle file URL not found at path '/gscripts/IGraphics.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.489
+!MESSAGE Bundle file URL not found at path '/gscripts/Rect.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.490
+!MESSAGE Bundle file URL not found at path '/gscripts/DrawingStyle.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.494
+!MESSAGE Bundle file URL not found at path '/gscripts/Point.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.506
+!MESSAGE Bundle file URL not found at path '/gscripts/Integer.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.727
+!MESSAGE Bundle file URL not found at path '/gscripts/AndroidWidgetLinearLayoutRuleBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:02.729
+!MESSAGE Bundle file URL not found at path '/gscripts/BaseLayoutBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:38.524
+!MESSAGE Bundle file URL not found at path '/gscripts/android.widget.EditText.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 09:59:38.524
+!MESSAGE Bundle file URL not found at path '/gscripts/android.widget.TextView.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-10 09:59:43.776
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device emulator-5554
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.clientChanged(Unknown Source)
+	at com.android.ddmlib.AndroidDebugBridge.clientChanged(AndroidDebugBridge.java:867)
+	at com.android.ddmlib.Device.update(Device.java:398)
+	at com.android.ddmlib.Client.update(Client.java:834)
+	at com.android.ddmlib.HandleAppName.handleAPNM(HandleAppName.java:90)
+	at com.android.ddmlib.HandleAppName.handleChunk(HandleAppName.java:64)
+	at com.android.ddmlib.MonitorThread.callHandler(MonitorThread.java:414)
+	at com.android.ddmlib.MonitorThread.processClientActivity(MonitorThread.java:322)
+	at com.android.ddmlib.MonitorThread.run(MonitorThread.java:263)
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 10:01:34.938
+!MESSAGE Bundle file URL not found at path '/gscripts/android.widget.Button.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2010-12-10 10:02:39.678
+!MESSAGE AndroidManifest: Ignoring unknown 'sbtn_send' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2010-12-10 10:02:40.143
+!MESSAGE AndroidManifest: Ignoring unknown 'strbtn_send' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2010-12-10 10:02:40.336
+!MESSAGE AndroidManifest: Ignoring unknown 'strinbtn_send' XML element
+
+!ENTRY org.eclipse.ui 4 4 2010-12-10 10:13:48.551
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-10 10:32:12.581
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device emulator-5554
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.clientChanged(Unknown Source)
+	at com.android.ddmlib.AndroidDebugBridge.clientChanged(AndroidDebugBridge.java:867)
+	at com.android.ddmlib.Device.update(Device.java:398)
+	at com.android.ddmlib.Client.update(Client.java:834)
+	at com.android.ddmlib.HandleAppName.handleAPNM(HandleAppName.java:90)
+	at com.android.ddmlib.HandleAppName.handleChunk(HandleAppName.java:64)
+	at com.android.ddmlib.MonitorThread.callHandler(MonitorThread.java:414)
+	at com.android.ddmlib.MonitorThread.processClientActivity(MonitorThread.java:322)
+	at com.android.ddmlib.MonitorThread.run(MonitorThread.java:263)
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-10 16:32:26.369
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: 'aapt' error. Pre Compiler Build aborted.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.execAapt(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.handleResources(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-10 16:32:26.370
+!MESSAGE 'aapt' error. Pre Compiler Build aborted.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-10 16:32:26.370
+!MESSAGE 'aapt' error. Pre Compiler Build aborted.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-10 16:46:40.533
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 5700f4d8299e
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.access$3(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController$3.run(Unknown Source)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-10 16:48:34.367
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 5700f4d8299e
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.access$3(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController$3.run(Unknown Source)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-10 17:29:02.293
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 5700f4d8299e
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.access$3(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController$3.run(Unknown Source)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-10 17:32:49.759
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 5700f4d8299e
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.access$3(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController$3.run(Unknown Source)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-10 17:34:53.882
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device 5700f4d8299e
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.access$3(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController$3.run(Unknown Source)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-10 17:36:56.936
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device emulator-5554
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.clientChanged(Unknown Source)
+	at com.android.ddmlib.AndroidDebugBridge.clientChanged(AndroidDebugBridge.java:867)
+	at com.android.ddmlib.Device.update(Device.java:398)
+	at com.android.ddmlib.Client.update(Client.java:834)
+	at com.android.ddmlib.HandleAppName.handleAPNM(HandleAppName.java:90)
+	at com.android.ddmlib.HandleAppName.handleChunk(HandleAppName.java:64)
+	at com.android.ddmlib.MonitorThread.callHandler(MonitorThread.java:414)
+	at com.android.ddmlib.MonitorThread.processClientActivity(MonitorThread.java:322)
+	at com.android.ddmlib.MonitorThread.run(MonitorThread.java:263)
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.222
+!MESSAGE Bundle file URL not found at path '/gscripts/IViewRule.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.223
+!MESSAGE Bundle file URL not found at path '/gscripts/String.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.237
+!MESSAGE Bundle file URL not found at path '/gscripts/Map.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.240
+!MESSAGE Bundle file URL not found at path '/gscripts/INode.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.241
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.242
+!MESSAGE Bundle file URL not found at path '/gscripts/List.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.253
+!MESSAGE Bundle file URL not found at path '/gscripts/IMenuCallback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.254
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Action.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.257
+!MESSAGE Bundle file URL not found at path '/gscripts/Boolean.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.259
+!MESSAGE Bundle file URL not found at path '/gscripts/INodeHandler.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.276
+!MESSAGE Bundle file URL not found at path '/gscripts/Set.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.280
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Choices.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.283
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Group.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.286
+!MESSAGE Bundle file URL not found at path '/gscripts/IAttributeInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.293
+!MESSAGE Bundle file URL not found at path '/gscripts/IGraphics.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.314
+!MESSAGE Bundle file URL not found at path '/gscripts/Rect.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.316
+!MESSAGE Bundle file URL not found at path '/gscripts/DrawingStyle.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.319
+!MESSAGE Bundle file URL not found at path '/gscripts/IDragElement.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.320
+!MESSAGE Bundle file URL not found at path '/gscripts/DropFeedback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.322
+!MESSAGE Bundle file URL not found at path '/gscripts/Point.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.325
+!MESSAGE Bundle file URL not found at path '/gscripts/_rules_engine.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.564
+!MESSAGE Bundle file URL not found at path '/gscripts/ANDROID_URI.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.574
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_ID.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.591
+!MESSAGE Bundle file URL not found at path '/gscripts/Closure.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.597
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_TEXT.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.776
+!MESSAGE Bundle file URL not found at path '/gscripts/AndroidViewViewRuleBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-10 17:43:50.777
+!MESSAGE Bundle file URL not found at path '/gscripts/BaseViewBeanInfo.groovy'
+!SESSION 2010-12-13 08:43:55.696 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-12-13 08:44:06.059
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 08:44:21.411
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.ResourceManagerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 08:44:21.413
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 08:44:21.413
+!MESSAGE Project target not loaded yet.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 08:44:21.433
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 08:44:21.434
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 08:44:21.434
+!MESSAGE Project target not loaded yet.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 08:44:23.803
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.ResourceManagerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 08:44:23.803
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 08:44:23.803
+!MESSAGE Project target not loaded yet.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 08:44:23.807
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 08:44:23.807
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 08:44:23.807
+!MESSAGE Project target not loaded yet.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-13 09:14:15.693
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device emulator-5554
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.clientChanged(Unknown Source)
+	at com.android.ddmlib.AndroidDebugBridge.clientChanged(AndroidDebugBridge.java:867)
+	at com.android.ddmlib.Device.update(Device.java:398)
+	at com.android.ddmlib.Client.update(Client.java:834)
+	at com.android.ddmlib.HandleAppName.handleAPNM(HandleAppName.java:90)
+	at com.android.ddmlib.HandleAppName.handleChunk(HandleAppName.java:64)
+	at com.android.ddmlib.MonitorThread.callHandler(MonitorThread.java:414)
+	at com.android.ddmlib.MonitorThread.processClientActivity(MonitorThread.java:322)
+	at com.android.ddmlib.MonitorThread.run(MonitorThread.java:263)
+!SESSION 2010-12-13 19:19:36.297 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-12-13 19:19:43.393
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 19:19:58.374
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.ResourceManagerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:19:58.376
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:19:58.376
+!MESSAGE Project target not loaded yet.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 19:19:58.396
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:19:58.396
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:19:58.396
+!MESSAGE Project target not loaded yet.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 19:20:00.519
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.ResourceManagerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:20:00.519
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:20:00.519
+!MESSAGE Project target not loaded yet.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 19:20:00.523
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:20:00.524
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:20:00.524
+!MESSAGE Project target not loaded yet.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-13 19:22:17.937
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device emulator-5554
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.clientChanged(Unknown Source)
+	at com.android.ddmlib.AndroidDebugBridge.clientChanged(AndroidDebugBridge.java:867)
+	at com.android.ddmlib.Device.update(Device.java:398)
+	at com.android.ddmlib.Client.update(Client.java:834)
+	at com.android.ddmlib.HandleAppName.handleAPNM(HandleAppName.java:90)
+	at com.android.ddmlib.HandleAppName.handleChunk(HandleAppName.java:64)
+	at com.android.ddmlib.MonitorThread.callHandler(MonitorThread.java:414)
+	at com.android.ddmlib.MonitorThread.processClientActivity(MonitorThread.java:322)
+	at com.android.ddmlib.MonitorThread.run(MonitorThread.java:263)
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.171
+!MESSAGE Bundle file URL not found at path '/gscripts/IViewRule.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.175
+!MESSAGE Bundle file URL not found at path '/gscripts/String.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.179
+!MESSAGE Bundle file URL not found at path '/gscripts/Map.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.183
+!MESSAGE Bundle file URL not found at path '/gscripts/INode.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.184
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.186
+!MESSAGE Bundle file URL not found at path '/gscripts/List.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.189
+!MESSAGE Bundle file URL not found at path '/gscripts/IMenuCallback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.191
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Action.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.195
+!MESSAGE Bundle file URL not found at path '/gscripts/Boolean.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.197
+!MESSAGE Bundle file URL not found at path '/gscripts/INodeHandler.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.200
+!MESSAGE Bundle file URL not found at path '/gscripts/Set.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.205
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Choices.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.210
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Group.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.214
+!MESSAGE Bundle file URL not found at path '/gscripts/IAttributeInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.223
+!MESSAGE Bundle file URL not found at path '/gscripts/IGraphics.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.225
+!MESSAGE Bundle file URL not found at path '/gscripts/Rect.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.226
+!MESSAGE Bundle file URL not found at path '/gscripts/DrawingStyle.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.230
+!MESSAGE Bundle file URL not found at path '/gscripts/IDragElement.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.232
+!MESSAGE Bundle file URL not found at path '/gscripts/DropFeedback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.234
+!MESSAGE Bundle file URL not found at path '/gscripts/Point.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.240
+!MESSAGE Bundle file URL not found at path '/gscripts/_rules_engine.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.420
+!MESSAGE Bundle file URL not found at path '/gscripts/ANDROID_URI.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.432
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_ID.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.457
+!MESSAGE Bundle file URL not found at path '/gscripts/Closure.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.467
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_TEXT.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.798
+!MESSAGE Bundle file URL not found at path '/gscripts/AndroidViewViewRuleBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:22:57.799
+!MESSAGE Bundle file URL not found at path '/gscripts/BaseViewBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.635
+!MESSAGE Bundle file URL not found at path '/gscripts/IViewRule.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.636
+!MESSAGE Bundle file URL not found at path '/gscripts/String.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.639
+!MESSAGE Bundle file URL not found at path '/gscripts/Map.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.641
+!MESSAGE Bundle file URL not found at path '/gscripts/INode.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.642
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.644
+!MESSAGE Bundle file URL not found at path '/gscripts/List.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.646
+!MESSAGE Bundle file URL not found at path '/gscripts/IMenuCallback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.647
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Action.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.650
+!MESSAGE Bundle file URL not found at path '/gscripts/Boolean.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.651
+!MESSAGE Bundle file URL not found at path '/gscripts/INodeHandler.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.653
+!MESSAGE Bundle file URL not found at path '/gscripts/Set.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.656
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Choices.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.659
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Group.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.662
+!MESSAGE Bundle file URL not found at path '/gscripts/IAttributeInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.667
+!MESSAGE Bundle file URL not found at path '/gscripts/IGraphics.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.669
+!MESSAGE Bundle file URL not found at path '/gscripts/Rect.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.670
+!MESSAGE Bundle file URL not found at path '/gscripts/DrawingStyle.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.673
+!MESSAGE Bundle file URL not found at path '/gscripts/IDragElement.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.674
+!MESSAGE Bundle file URL not found at path '/gscripts/DropFeedback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.675
+!MESSAGE Bundle file URL not found at path '/gscripts/Point.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.678
+!MESSAGE Bundle file URL not found at path '/gscripts/_rules_engine.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.842
+!MESSAGE Bundle file URL not found at path '/gscripts/ANDROID_URI.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.862
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_ID.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.883
+!MESSAGE Bundle file URL not found at path '/gscripts/Closure.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:12.888
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_TEXT.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:13.126
+!MESSAGE Bundle file URL not found at path '/gscripts/AndroidViewViewRuleBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:13.127
+!MESSAGE Bundle file URL not found at path '/gscripts/BaseViewBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.058
+!MESSAGE Bundle file URL not found at path '/gscripts/android.widget.EditText.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.059
+!MESSAGE Bundle file URL not found at path '/gscripts/android.widget.TextView.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.234
+!MESSAGE Bundle file URL not found at path '/gscripts/String.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.236
+!MESSAGE Bundle file URL not found at path '/gscripts/INode.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.237
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.238
+!MESSAGE Bundle file URL not found at path '/gscripts/List.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.240
+!MESSAGE Bundle file URL not found at path '/gscripts/ANDROID_URI.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.249
+!MESSAGE Bundle file URL not found at path '/gscripts/IMenuCallback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.250
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Action.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.253
+!MESSAGE Bundle file URL not found at path '/gscripts/Boolean.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.258
+!MESSAGE Bundle file URL not found at path '/gscripts/INodeHandler.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.271
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Choices.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.273
+!MESSAGE Bundle file URL not found at path '/gscripts/IDragElement.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.275
+!MESSAGE Bundle file URL not found at path '/gscripts/DropFeedback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.278
+!MESSAGE Bundle file URL not found at path '/gscripts/IFeedbackPainter.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.281
+!MESSAGE Bundle file URL not found at path '/gscripts/IGraphics.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.282
+!MESSAGE Bundle file URL not found at path '/gscripts/Rect.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.283
+!MESSAGE Bundle file URL not found at path '/gscripts/DrawingStyle.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.288
+!MESSAGE Bundle file URL not found at path '/gscripts/Point.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.290
+!MESSAGE Bundle file URL not found at path '/gscripts/Integer.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.446
+!MESSAGE Bundle file URL not found at path '/gscripts/AndroidWidgetLinearLayoutRuleBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-13 19:23:18.447
+!MESSAGE Bundle file URL not found at path '/gscripts/BaseLayoutBeanInfo.groovy'
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 19:23:33.871
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error in an XML file: aborting build.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:218)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:360)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:523)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:502)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:94)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:23:33.872
+!MESSAGE Error in an XML file: aborting build.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:23:33.872
+!MESSAGE Error in an XML file: aborting build.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-13 19:23:34.290
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: 'aapt' error. Pre Compiler Build aborted.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.execAapt(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.handleResources(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:23:34.291
+!MESSAGE 'aapt' error. Pre Compiler Build aborted.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-13 19:23:34.291
+!MESSAGE 'aapt' error. Pre Compiler Build aborted.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-13 19:31:00.484
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device emulator-5554
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.clientChanged(Unknown Source)
+	at com.android.ddmlib.AndroidDebugBridge.clientChanged(AndroidDebugBridge.java:867)
+	at com.android.ddmlib.Device.update(Device.java:398)
+	at com.android.ddmlib.Client.update(Client.java:834)
+	at com.android.ddmlib.HandleAppName.handleAPNM(HandleAppName.java:90)
+	at com.android.ddmlib.HandleAppName.handleChunk(HandleAppName.java:64)
+	at com.android.ddmlib.MonitorThread.callHandler(MonitorThread.java:414)
+	at com.android.ddmlib.MonitorThread.processClientActivity(MonitorThread.java:322)
+	at com.android.ddmlib.MonitorThread.run(MonitorThread.java:263)
+
+!ENTRY org.eclipse.ui 4 0 2010-12-14 08:37:47.532
+!MESSAGE Widget is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3884)
+	at org.eclipse.swt.SWT.error(SWT.java:3799)
+	at org.eclipse.swt.SWT.error(SWT.java:3770)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:388)
+	at org.eclipse.swt.widgets.Control.getBounds(Control.java:656)
+	at org.eclipse.ui.internal.forms.MessageManager.update(MessageManager.java:504)
+	at org.eclipse.ui.internal.forms.MessageManager.updateForm(MessageManager.java:499)
+	at org.eclipse.ui.internal.forms.MessageManager.removeMessage(MessageManager.java:403)
+	at com.android.ide.eclipse.adt.internal.editors.manifest.model.UiClassAttributeNode$4.widgetDisposed(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1176)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1200)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1181)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1044)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:211)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1185)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1047)
+	at org.eclipse.swt.widgets.Control.release(Control.java:3293)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.ui.internal.PartPane.dispose(PartPane.java:180)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:681)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1715)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1422)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1406)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1380)
+	at org.eclipse.ui.internal.WorkbenchPage.closeAllEditors(WorkbenchPage.java:1184)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1764)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:851)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1675)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:724)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:700)
+	at org.eclipse.ui.internal.WorkbenchWindow$5.run(WorkbenchWindow.java:816)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:814)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$16.run(Workbench.java:930)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:927)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:856)
+	at org.eclipse.ui.internal.Workbench$23.run(Workbench.java:1100)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1098)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1070)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:721)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:700)
+	at org.eclipse.ui.internal.WorkbenchWindow$5.run(WorkbenchWindow.java:816)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:814)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:92)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1176)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1200)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1185)
+	at org.eclipse.swt.widgets.Shell.closeWidget(Shell.java:612)
+	at org.eclipse.swt.widgets.Shell.gtk_delete_event(Shell.java:1087)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1562)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4594)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4191)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_do_event(OS.java:7603)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1185)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1860)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3110)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1287)
+!SESSION 2010-12-15 07:45:25.861 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-15 07:45:50.225
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.ResourceManagerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:45:50.227
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:45:50.227
+!MESSAGE Project target not loaded yet.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-15 07:45:50.326
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Project target not loaded yet.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.abortOnBadSetup(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:45:50.326
+!MESSAGE Project target not loaded yet.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:45:50.326
+!MESSAGE Project target not loaded yet.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2010-12-15 07:47:41.503
+!MESSAGE No command output when running: 'am start -n local.yogsms/local.yogsms.Main -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device emulator-5554
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:276)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.clientChanged(Unknown Source)
+	at com.android.ddmlib.AndroidDebugBridge.clientChanged(AndroidDebugBridge.java:867)
+	at com.android.ddmlib.Device.update(Device.java:398)
+	at com.android.ddmlib.Client.update(Client.java:834)
+	at com.android.ddmlib.HandleAppName.handleAPNM(HandleAppName.java:90)
+	at com.android.ddmlib.HandleAppName.handleChunk(HandleAppName.java:64)
+	at com.android.ddmlib.MonitorThread.callHandler(MonitorThread.java:414)
+	at com.android.ddmlib.MonitorThread.processClientActivity(MonitorThread.java:322)
+	at com.android.ddmlib.MonitorThread.run(MonitorThread.java:263)
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.005
+!MESSAGE Bundle file URL not found at path '/gscripts/IViewRule.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.006
+!MESSAGE Bundle file URL not found at path '/gscripts/String.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.010
+!MESSAGE Bundle file URL not found at path '/gscripts/Map.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.014
+!MESSAGE Bundle file URL not found at path '/gscripts/INode.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.015
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.016
+!MESSAGE Bundle file URL not found at path '/gscripts/List.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.019
+!MESSAGE Bundle file URL not found at path '/gscripts/IMenuCallback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.021
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Action.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.024
+!MESSAGE Bundle file URL not found at path '/gscripts/Boolean.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.026
+!MESSAGE Bundle file URL not found at path '/gscripts/INodeHandler.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.030
+!MESSAGE Bundle file URL not found at path '/gscripts/Set.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.034
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Choices.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.039
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Group.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.042
+!MESSAGE Bundle file URL not found at path '/gscripts/IAttributeInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.051
+!MESSAGE Bundle file URL not found at path '/gscripts/IGraphics.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.053
+!MESSAGE Bundle file URL not found at path '/gscripts/Rect.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.054
+!MESSAGE Bundle file URL not found at path '/gscripts/DrawingStyle.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.058
+!MESSAGE Bundle file URL not found at path '/gscripts/IDragElement.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.060
+!MESSAGE Bundle file URL not found at path '/gscripts/DropFeedback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.062
+!MESSAGE Bundle file URL not found at path '/gscripts/Point.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.065
+!MESSAGE Bundle file URL not found at path '/gscripts/_rules_engine.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.207
+!MESSAGE Bundle file URL not found at path '/gscripts/ANDROID_URI.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.217
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_ID.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.237
+!MESSAGE Bundle file URL not found at path '/gscripts/Closure.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.243
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_TEXT.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.521
+!MESSAGE Bundle file URL not found at path '/gscripts/AndroidViewViewRuleBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:49:24.522
+!MESSAGE Bundle file URL not found at path '/gscripts/BaseViewBeanInfo.groovy'
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-15 07:49:54.929
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: 'aapt' error. Pre Compiler Build aborted.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.execAapt(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.handleResources(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:49:54.930
+!MESSAGE 'aapt' error. Pre Compiler Build aborted.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:49:54.930
+!MESSAGE 'aapt' error. Pre Compiler Build aborted.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.871
+!MESSAGE Bundle file URL not found at path '/gscripts/IViewRule.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.878
+!MESSAGE Bundle file URL not found at path '/gscripts/String.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.881
+!MESSAGE Bundle file URL not found at path '/gscripts/Map.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.889
+!MESSAGE Bundle file URL not found at path '/gscripts/INode.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.891
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.892
+!MESSAGE Bundle file URL not found at path '/gscripts/List.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.900
+!MESSAGE Bundle file URL not found at path '/gscripts/IMenuCallback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.902
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Action.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.910
+!MESSAGE Bundle file URL not found at path '/gscripts/Boolean.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.912
+!MESSAGE Bundle file URL not found at path '/gscripts/INodeHandler.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.920
+!MESSAGE Bundle file URL not found at path '/gscripts/Set.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.928
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Choices.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.932
+!MESSAGE Bundle file URL not found at path '/gscripts/MenuAction.Group.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.941
+!MESSAGE Bundle file URL not found at path '/gscripts/IAttributeInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.964
+!MESSAGE Bundle file URL not found at path '/gscripts/IGraphics.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.965
+!MESSAGE Bundle file URL not found at path '/gscripts/Rect.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.974
+!MESSAGE Bundle file URL not found at path '/gscripts/DrawingStyle.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.977
+!MESSAGE Bundle file URL not found at path '/gscripts/IDragElement.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.979
+!MESSAGE Bundle file URL not found at path '/gscripts/DropFeedback.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.980
+!MESSAGE Bundle file URL not found at path '/gscripts/Point.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:15.983
+!MESSAGE Bundle file URL not found at path '/gscripts/_rules_engine.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:16.204
+!MESSAGE Bundle file URL not found at path '/gscripts/ANDROID_URI.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:16.215
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_ID.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:16.234
+!MESSAGE Bundle file URL not found at path '/gscripts/Closure.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:16.241
+!MESSAGE Bundle file URL not found at path '/gscripts/ATTR_TEXT.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:16.442
+!MESSAGE Bundle file URL not found at path '/gscripts/AndroidViewViewRuleBeanInfo.groovy'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2010-12-15 07:58:16.444
+!MESSAGE Bundle file URL not found at path '/gscripts/BaseViewBeanInfo.groovy'
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-15 07:58:31.317
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error in an XML file: aborting build.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:58:31.317
+!MESSAGE Error in an XML file: aborting build.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:58:31.317
+!MESSAGE Error in an XML file: aborting build.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-15 07:58:45.959
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error in an XML file: aborting build.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:58:45.960
+!MESSAGE Error in an XML file: aborting build.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:58:45.960
+!MESSAGE Error in an XML file: aborting build.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-15 07:59:13.874
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: 'aapt' error. Pre Compiler Build aborted.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.execAapt(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.handleResources(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:59:13.875
+!MESSAGE 'aapt' error. Pre Compiler Build aborted.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:59:13.875
+!MESSAGE 'aapt' error. Pre Compiler Build aborted.
+
+!ENTRY org.eclipse.core.resources 8 2 2010-12-15 07:59:27.479
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error in an XML file: aborting build.
+	at com.android.ide.eclipse.adt.internal.build.builders.BaseBuilder.stopBuild(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(Unknown Source)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:59:27.479
+!MESSAGE Error in an XML file: aborting build.
+!SUBENTRY 1 com.android.ide.eclipse.adt 8 0 2010-12-15 07:59:27.479
+!MESSAGE Error in an XML file: aborting build.

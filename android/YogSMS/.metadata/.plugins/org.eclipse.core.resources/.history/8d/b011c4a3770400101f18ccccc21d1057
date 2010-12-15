@@ -1,0 +1,8 @@
+package local.yogsms;
+
+import android.app.ListActivity;
+import android.database.Cursor;
+
+public class SMSList extends ListActivity {
+	private Cursor managedCursor = null; 
+}
