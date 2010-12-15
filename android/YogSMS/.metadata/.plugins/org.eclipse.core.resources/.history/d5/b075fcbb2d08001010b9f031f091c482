@@ -1,0 +1,75 @@
+package local.yogsms;
+
+import android.content.Context;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+public class SMSView extends LinearLayout {
+
+    private TextView text1;
+    private TextView text2;
+	public SMSView(Context context, String txt1, String txt2) {
+		super(context);
+		// TODO Auto-generated constructor stub
+        this.setOrientation(VERTICAL);
+
+        // Here we build the child views in code. They could also have
+        // been specified in an XML file.
+
+        text1 = new TextView(context);
+        text1.setText(txt1);
+        addView(text1, new LinearLayout.LayoutParams(
+                LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT));
+
+        text2 = new TextView(context);
+        text2.setText(txt2);
+        addView(text2, new LinearLayout.LayoutParams(
+                LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT));		
+	}
+	
+    public void setText1(String txt1) {
+    	text1.setText(title);
+    }
+
+
+    public void setText2(String txt2) {
+    	text2.setText(words);
+    }
+	
+
+}
+
+/*
+private class SpeechView extends LinearLayout {
+    public SpeechView(Context context, String title, String words) {
+        super(context);
+
+        this.setOrientation(VERTICAL);
+
+        // Here we build the child views in code. They could also have
+        // been specified in an XML file.
+
+        mTitle = new TextView(context);
+        mTitle.setText(title);
+        addView(mTitle, new LinearLayout.LayoutParams(
+                LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+
+        mDialogue = new TextView(context);
+        mDialogue.setText(words);
+        addView(mDialogue, new LinearLayout.LayoutParams(
+                LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+    }
+
+    public void setTitle(String title) {
+        mTitle.setText(title);
+    }
+
+
+    public void setDialogue(String words) {
+        mDialogue.setText(words);
+    }
+
+    private TextView mTitle;
+    private TextView mDialogue;
+}
+*/

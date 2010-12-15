@@ -1,0 +1,7 @@
+package local.yogsms;
+
+import android.view.View;
+
+public class SMSView extends View {
+
+}

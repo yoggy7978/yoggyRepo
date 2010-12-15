@@ -1,0 +1,7 @@
+package local.yogsms;
+
+import android.app.ListActivity;
+
+public class SMSList extends ListActivity {
+
+}

@@ -1,0 +1,50 @@
+package local.yogsms;
+
+import android.content.Context;
+import android.view.View;
+
+public class SMSView extends View {
+
+	public SMSView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+}
+
+/*
+private class SpeechView extends LinearLayout {
+    public SpeechView(Context context, String title, String words) {
+        super(context);
+
+        this.setOrientation(VERTICAL);
+
+        // Here we build the child views in code. They could also have
+        // been specified in an XML file.
+
+        mTitle = new TextView(context);
+        mTitle.setText(title);
+        addView(mTitle, new LinearLayout.LayoutParams(
+                LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+
+        mDialogue = new TextView(context);
+        mDialogue.setText(words);
+        addView(mDialogue, new LinearLayout.LayoutParams(
+                LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
+    }
+
+    public void setTitle(String title) {
+        mTitle.setText(title);
+    }
+
+    /**
+     * Convenience method to set the dialogue of a SpeechView
+     */
+    public void setDialogue(String words) {
+        mDialogue.setText(words);
+    }
+
+    private TextView mTitle;
+    private TextView mDialogue;
+}
+*/
