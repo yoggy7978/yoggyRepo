@@ -4,4 +4,6 @@
     <string name="app_name">YogSMS</string>
     <string name="btn_send">Send message</string>
 <string name="sms_title">SMS:</string>
+<string name="sms_footer">Nobody</string>
+<string name="empty"></string>
 </resources>
