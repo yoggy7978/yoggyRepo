@@ -9,6 +9,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
+import android.widget.SimpleCursorAdapter;
 
 public class Main extends ListActivity {
 	private Cursor managedCursor = null;
@@ -20,10 +22,11 @@ public class Main extends ListActivity {
 		
 		try
 		{
+			
 			Log.d("YogSMS", "start listing");
 			Uri uri = Uri.parse("content://sms");
 			managedCursor = managedQuery(uri, null, null, null, null);
-			list = new ArrayList<String>();
+			/*	list = new ArrayList<String>();
 			
 			if(managedCursor.moveToFirst())
 			{
@@ -39,13 +42,21 @@ public class Main extends ListActivity {
 			
 					list.add(sms);
 				} while (managedCursor.moveToNext());
-			}
+			}*/
+			   ListAdapter adapter = new SimpleCursorAdapter(
+		                 this, // Context.
+		                 android.R.layout.two_line_list_item,  // Specify the row template to use (here, two columns bound to the two retrieved cursor rows).
+		                 managedCursor,                                              // Pass in the cursor to bind to.
+		                 new String[] {"address", "body"},           // Array of cursor columns to bind to.
+		                 new int[] {android.R.id.text1, android.R.id.text2});  // Parallel array of which template objects to bind to those columns.
+
+		         // Bind to our new adapter.
+		         setListAdapter(adapter);
+			
 		}
 		catch(Exception e)
 		{
 			Log.e("YogSMS", "Access list:", e);
-		}
-		setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, list));
-		
+		}		
 	}
 }
