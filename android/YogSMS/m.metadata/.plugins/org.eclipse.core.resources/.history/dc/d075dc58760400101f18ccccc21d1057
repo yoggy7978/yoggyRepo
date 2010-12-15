@@ -1,7 +1,0 @@
-package local.yogsms;
-
-import Activity;
-
-public class SMSEdit extends android.app.Activity {
-
-}

@@ -1,3 +1,0 @@
-INDEX VERSION 1.126+D:\Julien\_perso\soft\my\projects\yoggyRepo\android\YogSMS\.metadata\.plugins\org.eclipse.jdt.core
-4005673135.index
-910461771.index
