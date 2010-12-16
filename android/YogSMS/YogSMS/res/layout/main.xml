@@ -36,11 +36,15 @@
 				<LinearLayout android:id="@+id/bottom_control_bar"
 							android:layout_width="fill_parent" 
 							android:layout_height="wrap_content"
-							android:layout_alignParentBottom="true">
+							android:layout_alignParentBottom="true"
+							android:orientation="horizontal">
 							<TextView android:id="@+id/who"
 									android:layout_width="fill_parent"
 									android:layout_height="wrap_content" 
 									android:text="@string/empty" />
+							<ImageView android:id="@+id/imagecontact" 
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content" />									
 				</LinearLayout>
 				<ListView android:id="@+id/list" 
 						android:layout_width="fill_parent"
@@ -48,11 +52,5 @@
 						android:choiceMode="multipleChoice"
 						android:layout_below="@id/top_control_bar" 
 						android:layout_above="@id/bottom_control_bar">
-				</ListView>
-				<TextView android:id="@android:id/empty" 
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/empty"
-						android:layout_below="@id/top_control_bar" 
-						android:layout_above="@id/bottom_control_bar" />
+				</ListView>			
 </RelativeLayout>

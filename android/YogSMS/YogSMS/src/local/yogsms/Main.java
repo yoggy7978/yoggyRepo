@@ -3,13 +3,16 @@ package local.yogsms;
 import android.app.Activity;
 import android.content.Context;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.provider.ContactsContract.PhoneLookup;
+import android.util.Config;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
@@ -64,15 +67,54 @@ public class Main extends Activity {
 
 						// Query the filter URI
 						String[] projection = new String[]{ PhoneLookup.DISPLAY_NAME };
-						Cursor cursor = context.getContentResolver().query(uri, projection, null, null, null);
-						cursor.moveToFirst();
-						for(int i = 0 ; i < cursor.getColumnCount() ; i++)
-						{
-							Log.d("YogSMS", "Contact : " + i + " : "+ cursor.getColumnName(i));
-						}
+						Cursor cursor = context.getContentResolver().query(uri, null, null, null, null);
+						
 						TextView texte = (TextView)findViewById(R.id.who);
-						texte.setText("");
-						texte.setText(cursor.getString(cursor.getColumnIndex(PhoneLookup.DISPLAY_NAME)));
+						ImageView image = (ImageView)findViewById(R.id.imagecontact);
+						if(cursor.getCount() == 0)
+						{
+							texte.setText("");
+						}
+						else
+						{
+							cursor.moveToFirst();
+							for(int i = 0 ; i < cursor.getColumnCount() ; i++)
+							{
+								try
+								{
+									Log.d("YogSMS", "Contact : " + i + " : "+ cursor.getColumnName(i) + " : " + cursor.getString(i));
+								}
+								catch(Exception e)
+								{
+								
+								}
+							}							
+							texte.setText(cursor.getString(cursor.getColumnIndex(PhoneLookup.DISPLAY_NAME)));
+	/*						public InputStream openPhoto(long contactId) {
+							     Uri contactUri = ContentUris.withAppendedId(Contacts.CONTENT_URI, contactId);
+							     Uri photoUri = Uri.withAppendedPath(contactUri, Contacts.Photo.CONTENT_DIRECTORY);
+							     Cursor cursor = getContentResolver().query(photoUri,
+							          new String[] {Contacts.Photo.PHOTO}, null, null, null);
+							     if (cursor == null) {
+							         return null;
+							     }
+							     try {
+							         if (cursor.moveToFirst()) {
+							             byte[] data = cursor.getBlob(0);
+							             if (data != null) {
+							                 return new ByteArrayInputStream(data);
+							             }
+							         }
+							     } finally {
+							         cursor.close();
+							     }
+							     return null;
+							 }
+*/		
+		
+							Bitmap bm = Bitmap.createBitmap(100,100, null);
+							
+							}
 					}
 					catch(Exception e)
 					{
