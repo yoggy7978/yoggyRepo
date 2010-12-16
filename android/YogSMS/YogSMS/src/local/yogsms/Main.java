@@ -113,6 +113,7 @@ public class Main extends Activity {
 */		
 		
 							Bitmap bm = Bitmap.createBitmap(100,100, null);
+							bm.
 							
 							}
 					}
