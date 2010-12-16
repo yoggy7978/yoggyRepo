@@ -1,12 +1,18 @@
 package local.yogsms;
 
+import java.io.InputStream;
+
 import android.app.Activity;
+import android.content.ContentResolver;
+import android.content.ContentUris;
 import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.provider.Contacts.People;
 import android.provider.ContactsContract.PhoneLookup;
 import android.util.Config;
 import android.util.Log;
@@ -67,10 +73,11 @@ public class Main extends Activity {
 
 						// Query the filter URI
 						String[] projection = new String[]{ PhoneLookup.DISPLAY_NAME };
-						Cursor cursor = context.getContentResolver().query(uri, null, null, null, null);
+						ContentResolver cr = context.getContentResolver();
+						Cursor cursor = cr.query(uri, null, null, null, null);
 						
 						TextView texte = (TextView)findViewById(R.id.who);
-						ImageView image = (ImageView)findViewById(R.id.imagecontact);
+						ImageView image = (ImageView)findViewById(R.id.imageItem);
 						if(cursor.getCount() == 0)
 						{
 							texte.setText("");
@@ -90,32 +97,12 @@ public class Main extends Activity {
 								}
 							}							
 							texte.setText(cursor.getString(cursor.getColumnIndex(PhoneLookup.DISPLAY_NAME)));
-	/*						public InputStream openPhoto(long contactId) {
-							     Uri contactUri = ContentUris.withAppendedId(Contacts.CONTENT_URI, contactId);
-							     Uri photoUri = Uri.withAppendedPath(contactUri, Contacts.Photo.CONTENT_DIRECTORY);
-							     Cursor cursor = getContentResolver().query(photoUri,
-							          new String[] {Contacts.Photo.PHOTO}, null, null, null);
-							     if (cursor == null) {
-							         return null;
-							     }
-							     try {
-							         if (cursor.moveToFirst()) {
-							             byte[] data = cursor.getBlob(0);
-							             if (data != null) {
-							                 return new ByteArrayInputStream(data);
-							             }
-							         }
-							     } finally {
-							         cursor.close();
-							     }
-							     return null;
-							 }
-*/		
-		
-							Bitmap bm = Bitmap.createBitmap(100,100, null);
-							bm.
-							
-							}
+							int imageID = cursor.getInt(cursor.getColumnIndex(PhoneLookup._ID));
+							Bitmap bm = Main.loadContactPhoto(cr, imageID );
+							if(bm != null)
+								image.setImageBitmap(bm);							
+
+						}
 					}
 					catch(Exception e)
 					{
@@ -135,4 +122,13 @@ public class Main extends Activity {
 			Log.e("YogSMS", "exception:", e);			
 		}		
 	}
+	
+	public static Bitmap loadContactPhoto(ContentResolver cr, long id) {
+		Uri uri = ContentUris.withAppendedId(ContactsContract.Contacts.CONTENT_URI, id);
+		InputStream input = ContactsContract.Contacts.openContactPhotoInputStream(cr, uri);
+		if (input == null) {
+			return null ;
+		}
+		return BitmapFactory.decodeStream(input);
+	}	
 }
