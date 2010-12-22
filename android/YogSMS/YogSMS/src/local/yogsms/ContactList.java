@@ -111,7 +111,7 @@ public class ContactList extends Activity {
 	private void populateContactList() {
 		// Build adapter with contact entries
 		Cursor cursor = getContacts();
-		SimpleCursorAdapter adapter = new SimpleCursorAdapter(
+		ContactCursorAdapter adapter = new ContactCursorAdapter(
 				this,
 				R.layout.contact_entry, 
 				cursor, 
@@ -140,24 +140,31 @@ public class ContactList extends Activity {
 class ContactCursorAdapter extends BaseAdapter
 {
 
+	Cursor _contacts ;
+	Context _context;
+	int _layout;
+	public ContactCursorAdapter(Context context, int layout, Cursor c, String[] from, int[] to)
+	{
+		super();
+		_context = context;
+		_contacts = c;
+		_layout = layout;
+	}
 	public int getCount() {
-		// TODO Auto-generated method stub
-		return 0;
+		return _contacts.getCount();
 	}
 
 	public Object getItem(int arg0) {
-		// TODO Auto-generated method stub
-		return null;
+		_contacts.moveToPosition(arg0);
+		return _contacts.getString(_contacts.getColumnIndex(ContactsContract.Data.DISPLAY_NAME));
 	}
 
 	public long getItemId(int arg0) {
-		// TODO Auto-generated method stub
-		return 0;
+		return arg0;
 	}
 
 	public View getView(int arg0, View arg1, ViewGroup arg2) {
-		// TODO Auto-generated method stub
-		return null;
+		return View.inflate(_context, _layout, arg2);		
 	}
 	
 }
