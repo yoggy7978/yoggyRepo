@@ -1,11 +1,9 @@
 package local.yogsms;
 
 import java.io.InputStream;
-import java.security.Provider;
+import java.util.ArrayList;
 import java.util.Dictionary;
-import java.util.Enumeration;
-import java.util.HashSet;
-import java.util.List;
+import java.util.HashMap;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -96,14 +94,15 @@ public class ContactList extends Activity {
 
 class ContactCursorAdapter extends BaseAdapter {
 
+	public static final String TAG = "YogSMS";
 	Cursor mContacts;
 	Cursor mSMS;
 	Context mContext;
 	int mLayout;
 	LayoutInflater mInflater;
-	java.util.HashSet<String> set = new HashSet<String>();
-	
-	Dictionary<String, Integer> smsSenders ;
+	java.util.HashMap<String, Integer> map = new HashMap<String, Integer>();
+		
+	ArrayList<SMSContact> smsSenders;
 	
 	public ContactCursorAdapter(Context context, Cursor contacts) {
 		super();
@@ -113,17 +112,62 @@ class ContactCursorAdapter extends BaseAdapter {
 		mInflater = LayoutInflater.from(mContext);
 		
 		Cursor sms = querySMS(null, null, null, null);
-		smsSenders = new Dictionary<String, Integer>();
-		if(sms.getCount() > 0)
+		
+		/*int collcount = sms.getColumnCount();
+		
+		sms.moveToFirst();
+		for(int i = 0 ; i < collcount ; i++)
 		{
-			sms.moveToFirst();
-			while(!sms.isLast())
+			Log.d(TAG, sms.getColumnName(i) + " ;");
+		}*/
+		int c = sms.getCount() ;
+		Log.d(TAG, "Nb SMS: " + c);
+		for(int i = 0 ; i < c ; i++)
+		{
+			sms.moveToPosition(i);
+			Log.d(TAG, "--> " + i);
+			String pers = sms.getString(sms.getColumnIndex("person"));
+			Log.d(TAG, "    person " + pers);
+			String address = sms.getString(sms.getColumnIndex("address"));
+			Log.d(TAG, "    thread_id " + sms.getString(sms.getColumnIndex("thread_id")));
+			Log.d(TAG, "    date " + sms.getString(sms.getColumnIndex("date")));
+			Log.d(TAG, "    protocol " + sms.getString(sms.getColumnIndex("protocol")));
+			Log.d(TAG, "    read " + sms.getString(sms.getColumnIndex("read")));
+			Log.d(TAG, "    status " + sms.getString(sms.getColumnIndex("status")));
+			Log.d(TAG, "    type " + sms.getString(sms.getColumnIndex("type")));
+			Log.d(TAG, "    reply_path_present " + sms.getString(sms.getColumnIndex("reply_path_present")));
+			Log.d(TAG, "    subject " + sms.getString(sms.getColumnIndex("subject")));
+			Log.d(TAG, "    body " + sms.getString(sms.getColumnIndex("body")));
+			Log.d(TAG, "    service_center " + sms.getString(sms.getColumnIndex("service_center")));
+			Log.d(TAG, "    locked " + sms.getString(sms.getColumnIndex("locked")));
+/*			SMSContact cont ;
+			if(!map.containsKey(person))
 			{
-				
+				cont = new SMSContact();
 			}
+			else
+			{
+				cont = map.get(key)
+			}*/
 		}
 	}
-
+/* SMS table
+	_id 
+	thread_id 
+	address 
+	person 
+	date 
+	protocol 
+	read 
+	status 
+	type 
+	reply_path_present 
+	subject 
+	body 
+	service_center 
+	locked */
+	
+	
 	private Cursor querySMS(String[] projection, String selection, String[] selectionArgs, String sortOrder) {
 		Uri uri = Uri.parse("content://sms");
 		return ((Activity) mContext).managedQuery(uri, null, null, null, null);
@@ -158,6 +202,20 @@ class ContactCursorAdapter extends BaseAdapter {
 			iv.setImageBitmap(bm);
 		
 		return convertView;
+	}
+
+}
+
+class SMSContact
+{
+	public boolean knownContact ;
+	public String displayName;
+	public String telephone;
+	public int contactID;
+	public int unread;
+	SMSContact()
+	{
+		unread = 0;
 	}
 
 }
