@@ -25,9 +25,6 @@ public class ContactList extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-
-		Log.d(TAG, "ENTERING onCreate");
-
 		try {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.contact_list);
@@ -44,7 +41,6 @@ public class ContactList extends Activity {
 			toast.show();
 			Log.e(TAG, "exception:", e);
 		}
-		Log.d(TAG, "EXITING onCreate");
 	}
 
 	public static Bitmap loadContactPhoto(ContentResolver cr, long id) {

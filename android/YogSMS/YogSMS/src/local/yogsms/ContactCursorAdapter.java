@@ -33,19 +33,23 @@ class ContactCursorAdapter extends BaseAdapter {
 	}
 	
 	public int getCount() {
+		Log.d(TAG, "getCount return " + mSMSContacts.size());
 		return mSMSContacts.size();
 	}
 
 	public Object getItem(int index) {
+		Log.d(TAG, "getItem" + index);
 		return mSMSContacts.get(index);
 	}
 
 	public long getItemId(int index) {
+		Log.d(TAG, "getItemId" + index);
 		return index;
 	}
 
 	public View getView(int position, View convertView, ViewGroup parent) {
 
+		Log.d(TAG, "getView" + position);
 		try {
 			if (convertView == null) {
 				convertView = mInflater.inflate(mLayout, null);
