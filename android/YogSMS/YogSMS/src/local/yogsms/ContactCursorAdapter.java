@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -63,10 +64,18 @@ class ContactCursorAdapter extends BaseAdapter {
 			Bitmap bm = null;
 			if(contact.knownContact && contact.hasphoto)
 			{
-				bm = ContactList.loadContactPhoto(mContext.getContentResolver(), contact.contactID);				
+				bm = ContactList.loadContactPhoto(mContext.getContentResolver(), contact.contactID);
 			}
+			//
 			if (bm != null)
 				iv.setImageBitmap(bm);
+			else
+			{
+			  int imageResource = R.drawable.ic_contact_picture;
+			  Drawable image = mContext.getResources().getDrawable(imageResource);
+			  iv.setImageDrawable(image);
+			}
+				
 		}catch (Exception e) {
 			Toast toast = Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_LONG);
 			toast.show();

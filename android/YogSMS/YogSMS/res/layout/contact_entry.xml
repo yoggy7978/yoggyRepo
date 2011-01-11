@@ -3,8 +3,8 @@
               android:layout_width="fill_parent"
               android:layout_height="wrap_content">
 	<ImageView android:id="@+id/contact_photo" 
-    		   android:layout_width="wrap_content"
-               android:layout_height="wrap_content"/>
+    		   android:layout_width="54px"
+               android:layout_height="54px"/>
     <TextView android:id="@+id/contact_displayname"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"/>
