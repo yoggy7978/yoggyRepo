@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="54px"
+              android:orientation="horizontal">              
+	<ImageView android:id="@+id/photo" 
+    		   android:layout_width="54px"
+               android:layout_height="54px"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	              android:layout_width="fill_parent"
+	              android:layout_height="54px"
+	              android:orientation="vertical">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		              android:layout_width="fill_parent"
+		              android:layout_height="wrap_content"
+		              android:orientation="horizontal">
+		    <TextView android:id="@+id/displayname"
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"/>
+		    <TextView android:id="@+id/nbunreadSMS"
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"/>
+		</LinearLayout>
+	    <TextView android:id="@+id/snippet"
+	    		  android:textColor="#4A4A4A"
+	              android:layout_width="fill_parent"
+			      android:layout_height="wrap_content"/>
+	</LinearLayout>		      
+</LinearLayout>

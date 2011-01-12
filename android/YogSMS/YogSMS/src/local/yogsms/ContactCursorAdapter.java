@@ -1,11 +1,11 @@
 package local.yogsms;
 
-import java.util.ArrayList;
-
+import android.app.Activity;
 import android.content.Context;
 import android.database.Cursor;
-import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.provider.ContactsContract.PhoneLookup;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,63 +18,121 @@ import android.widget.Toast;
 class ContactCursorAdapter extends BaseAdapter {
 
 	public static final String TAG = "YogSMS";
-	Cursor mContacts;
+	Cursor mConversations;
 	Context mContext;
 	int mLayout;
 	LayoutInflater mInflater;
-		
-	ArrayList<SMSContact> mSMSContacts ;
+	YogSMSConversation[] convs;
+	int count;
 	
-	public ContactCursorAdapter(Context context, ArrayList<SMSContact> smsContacts) {
+	public ContactCursorAdapter(Context context, Cursor conversations) {
 		super();
+		count = conversations.getCount();
+		convs = new YogSMSConversation[count];
+		
+		mConversations = conversations;
 		mContext = context;
-		mSMSContacts = smsContacts;
-		mLayout = R.layout.contact_entry;
+		mLayout = R.layout.conversation_entry;
 		mInflater = LayoutInflater.from(mContext);
 	}
 	
 	public int getCount() {
-		Log.d(TAG, "getCount return " + mSMSContacts.size());
-		return mSMSContacts.size();
+		return count;
 	}
 
 	public Object getItem(int index) {
-		Log.d(TAG, "getItem" + index);
-		return mSMSContacts.get(index);
+		return convs[index];
 	}
 
 	public long getItemId(int index) {
-		Log.d(TAG, "getItemId" + index);
 		return index;
 	}
+	private Cursor querySMSConversationId(int id) {
+		Uri uri = Uri.parse("content://sms/conversations/" + id);
+		return ((Activity)mContext).managedQuery(uri, null, null, null, null);
+	}	
 
 	public View getView(int position, View convertView, ViewGroup parent) {
 
-		Log.d(TAG, "getView" + position);
 		try {
 			if (convertView == null) {
 				convertView = mInflater.inflate(mLayout, null);
 			} else {
 				convertView = (View) convertView;
 			}
-			TextView tv = (TextView) convertView.findViewById(R.id.contact_displayname);
-			SMSContact contact = mSMSContacts.get(position);
-			tv.setText(contact.displayName + " (" + contact.unread + "/" + contact.smscount + ")");
-			ImageView iv = (ImageView) convertView.findViewById(R.id.contact_photo);
-			Bitmap bm = null;
-			if(contact.knownContact && contact.hasphoto)
+
+			//Log.d(TAG, "--------- ");
+			YogSMSConversation currConversation;
+			if(convs[position] == null)
 			{
-				bm = ContactList.loadContactPhoto(mContext.getContentResolver(), contact.contactID);
+				currConversation = new  YogSMSConversation();
+				convs[position] = currConversation;
+				//Log.d(TAG, "Get conversation ID");
+				mConversations.moveToPosition(count-position-1);
+				currConversation.id = mConversations.getInt(mConversations.getColumnIndex("thread_id"));
+				//Log.d(TAG, "Conv ID " + currConversation.id);
+				//Log.d(TAG, "Get conversation");
+				Cursor cur = querySMSConversationId(currConversation.id);
+				cur.moveToFirst();
+				
+				//Log.d(TAG, "Search for corresponding contact");
+				currConversation.contact = new YogSMSContact();
+				currConversation.contact.address = cur.getString(cur.getColumnIndex("address"));
+				Uri uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI, Uri.encode(currConversation.contact.address));
+				Cursor lookup = ((Activity)mContext).managedQuery(uri, null,null,null, null);
+				currConversation.contact.id = 0 ;
+				if(lookup.getCount() > 0)
+				{
+					lookup.moveToFirst();
+					currConversation.contact.id = lookup.getInt(lookup.getColumnIndex(PhoneLookup._ID));
+					currConversation.contact.address = lookup.getString(lookup.getColumnIndex(PhoneLookup.NUMBER));
+				}
+				
+				//Log.d(TAG, "Manage UI data");
+				currConversation.contact.displayname = currConversation.contact.address;
+				boolean hasphoto  = false ;
+				currConversation.smscount= mConversations.getInt(mConversations.getColumnIndex("msg_count")) ;
+				currConversation.snippet= mConversations.getString(mConversations.getColumnIndex("snippet")) ;
+				//Log.d(TAG, "snip: " +currConversation.snippet);
+				if(lookup.getCount() > 0)
+				{
+					if(lookup.getString(lookup.getColumnIndex(PhoneLookup.PHOTO_ID)) != null)
+					{
+						hasphoto = true;
+					}
+					currConversation.contact.displayname = lookup.getString(lookup.getColumnIndex(PhoneLookup.DISPLAY_NAME));
+				}
+				//Log.d(TAG, "Get photo");
+				if(hasphoto)
+				{
+					currConversation.contact.bm = ContactList.loadContactPhoto(mContext.getContentResolver(), currConversation.contact.id);
+				}
 			}
-			//
-			if (bm != null)
-				iv.setImageBitmap(bm);
+			else
+			{
+				currConversation = convs[position];
+			}
+
+			
+			TextView tv = (TextView) convertView.findViewById(R.id.displayname);
+			tv.setText(currConversation.contact.displayname);
+			TextView un = (TextView) convertView.findViewById(R.id.nbunreadSMS);
+			un.setText("("+ currConversation.smscount +")");			
+
+			TextView sn = (TextView) convertView.findViewById(R.id.snippet);
+			sn.setText(currConversation.snippet);			
+			
+			ImageView iv = (ImageView) convertView.findViewById(R.id.photo);
+
+			if (currConversation.contact.bm != null)
+				iv.setImageBitmap(currConversation.contact.bm);
 			else
 			{
 			  int imageResource = R.drawable.ic_contact_picture;
 			  Drawable image = mContext.getResources().getDrawable(imageResource);
-			  iv.setImageDrawable(image);
-			}
+			  iv.setImageDrawable(image);  
+			}				
+			
 				
 		}catch (Exception e) {
 			Toast toast = Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_LONG);
