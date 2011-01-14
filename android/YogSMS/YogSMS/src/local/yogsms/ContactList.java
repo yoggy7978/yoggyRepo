@@ -2,9 +2,11 @@ package local.yogsms;
 
 import java.io.InputStream;
 
+
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.ContentUris;
+import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -12,8 +14,11 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
+import android.widget.AdapterView.OnItemClickListener;
 
 public class ContactList extends Activity {
 
@@ -28,19 +33,32 @@ public class ContactList extends Activity {
 
 			mContactList = (ListView) findViewById(R.id.contactList);
 
+
 			Cursor cur = querySMSConversations();
 			ContactCursorAdapter adapter = new ContactCursorAdapter(
 					this, 
 					cur);
 			mContactList.setAdapter(adapter);
 
+			mContactList.setOnItemClickListener(new OnItemClickListener() {
+				public void onItemClick(AdapterView<?> a, View v, int position, long id) {
+					startActivity(new Intent(ContactList.this, SMSList.class)) ;
+					/*AlertDialog.Builder adb = new AlertDialog.Builder(ContactList.this);
+					adb.setTitle("LVSelectedItemExample");
+					adb.setMessage("Selected Item is = " + mContactList.getItemAtPosition(position));
+					adb.setPositiveButton("Ok", null);
+					adb.show();*/
+				}
+			});	
+			//dumpContentProvider("content://sms");
+			
 		} catch (Exception e) {
 			Toast toast = Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG);
 			toast.show();
 			Log.e(TAG, "exception:", e);
 		}
-	}
-
+	}		
+	
 	public static Bitmap loadContactPhoto(ContentResolver cr, long id) {
 		Uri uri = ContentUris.withAppendedId(
 				ContactsContract.Contacts.CONTENT_URI, id);
@@ -57,7 +75,12 @@ public class ContactList extends Activity {
 		return managedQuery(uri, null, null, null, null);
 	}	
 	
-	/*private void dumpContentProvider(String struri) {
+	/*private Cursor querySMS() {
+		Uri uri = Uri.parse("content://sms");
+		return managedQuery(uri, null, null, null, null);
+	}*/
+	
+	private void dumpContentProvider(String struri) {
 		Log.d(TAG, struri);
 		Uri uri = Uri.parse(struri);
 		Cursor cur = managedQuery(uri, null, null, null, null);
@@ -102,5 +125,5 @@ public class ContactList extends Activity {
 			go =cur.moveToNext();
 		}
 		
-	}				*/
+	}				
 }

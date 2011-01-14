@@ -11,6 +11,7 @@
             </intent-filter>
         </activity>
 <service android:enabled="true" android:name=".YogSMSService"></service>
+<activity android:name="SMSList"></activity>
 </application>
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7"/>
 
