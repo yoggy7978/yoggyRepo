@@ -3,9 +3,13 @@ package local.yogsms;
 import java.io.InputStream;
 
 
+import android.accounts.Account;
+import android.accounts.AccountManager;
+import android.accounts.AccountsException;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.ContentUris;
+import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -24,7 +28,13 @@ public class ContactList extends Activity {
 
 	public static final String TAG = "YogSMS";
 	private ListView mContactList;
+	private static YogSMSConversation mLastSelectedYogConversation= null;
 
+	public static YogSMSConversation getLastSelectedYogConversation()
+	{
+		return mLastSelectedYogConversation;
+	}
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		try {
@@ -42,15 +52,13 @@ public class ContactList extends Activity {
 
 			mContactList.setOnItemClickListener(new OnItemClickListener() {
 				public void onItemClick(AdapterView<?> a, View v, int position, long id) {
+					mLastSelectedYogConversation = (YogSMSConversation)mContactList.getItemAtPosition(position);
 					startActivity(new Intent(ContactList.this, SMSList.class)) ;
-					/*AlertDialog.Builder adb = new AlertDialog.Builder(ContactList.this);
-					adb.setTitle("LVSelectedItemExample");
-					adb.setMessage("Selected Item is = " + mContactList.getItemAtPosition(position));
-					adb.setPositiveButton("Ok", null);
-					adb.show();*/
 				}
 			});	
 			//dumpContentProvider("content://sms");
+
+			
 			
 		} catch (Exception e) {
 			Toast toast = Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG);
@@ -80,10 +88,9 @@ public class ContactList extends Activity {
 		return managedQuery(uri, null, null, null, null);
 	}*/
 	
-	private void dumpContentProvider(String struri) {
-		Log.d(TAG, struri);
-		Uri uri = Uri.parse(struri);
-		Cursor cur = managedQuery(uri, null, null, null, null);
+	public static void dumpContentProvider(Context context, Uri uri) {
+		Log.d(TAG, "Uri: " + uri.toString());
+		Cursor cur = ((Activity)context).managedQuery(uri, null, null, null, null);
 		int count = cur.getColumnCount();
 		Log.d(TAG, "Nb columns: " + count);
 		cur.moveToFirst();
@@ -125,5 +132,5 @@ public class ContactList extends Activity {
 			go =cur.moveToNext();
 		}
 		
-	}				
+	}			
 }

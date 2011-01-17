@@ -19,7 +19,11 @@ public final class R {
         public static final int displayname=0x7f050001;
         public static final int nbunreadSMS=0x7f050002;
         public static final int photo=0x7f050000;
-        public static final int smsList=0x7f050009;
+        public static final int smsList=0x7f05000d;
+        public static final int sms_me_date=0x7f05000c;
+        public static final int sms_me_displayname=0x7f05000a;
+        public static final int sms_me_message=0x7f05000b;
+        public static final int sms_me_photo=0x7f050009;
         public static final int smsdate=0x7f050008;
         public static final int smsdisplayname=0x7f050006;
         public static final int smsmessage=0x7f050007;
@@ -30,7 +34,8 @@ public final class R {
         public static final int conversation_entry=0x7f030000;
         public static final int conversation_list=0x7f030001;
         public static final int sms_entry=0x7f030002;
-        public static final int sms_list=0x7f030003;
+        public static final int sms_entry_me=0x7f030003;
+        public static final int sms_list=0x7f030004;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
