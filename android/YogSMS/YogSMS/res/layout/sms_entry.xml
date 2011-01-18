@@ -10,15 +10,24 @@
 	              android:layout_width="fill_parent"
 	              android:layout_height="wrap_content"
 	              android:orientation="vertical">
-	    <TextView android:id="@+id/smsdisplayname"
-	              android:layout_width="wrap_content"
-	              android:layout_height="wrap_content"/>
-	    <TextView android:id="@+id/smsmessage"
-	              android:layout_width="fill_parent"
-			      android:layout_height="wrap_content"/>
-	    <TextView android:id="@+id/smsdate"
-	              android:layout_width="wrap_content"
-	              android:layout_height="wrap_content"/>		              
-	</LinearLayout>		      
+		<TextView android:id="@+id/smsdate"
+		          android:layout_width="fill_parent"
+		          android:layout_height="wrap_content"
+		          android:textStyle="italic"
+		          android:textSize="10px"/>	              
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		              android:layout_width="fill_parent"
+		              android:layout_height="wrap_content"
+		              android:layout_gravity="center_vertical"
+		              android:orientation="horizontal">  	              
+		    <TextView android:id="@+id/smsdisplayname"
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:textStyle="bold"/>		    
+			<TextView android:id="@+id/smsmessage"
+		              android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"/>
+		</LinearLayout>
+	</LinearLayout>
 </LinearLayout>
 

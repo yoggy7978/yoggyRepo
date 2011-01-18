@@ -16,13 +16,13 @@
 		              android:orientation="horizontal">
 		    <TextView android:id="@+id/displayname"
 		              android:layout_width="wrap_content"
-		              android:layout_height="wrap_content"/>
+		              android:layout_height="wrap_content"
+		              android:textStyle="bold"/>		              
 		    <TextView android:id="@+id/nbunreadSMS"
 		              android:layout_width="wrap_content"
 		              android:layout_height="wrap_content"/>
 		</LinearLayout>
 	    <TextView android:id="@+id/snippet"
-	    		  android:textColor="#4A4A4A"
 	              android:layout_width="fill_parent"
 			      android:layout_height="wrap_content"/>
 	</LinearLayout>		      

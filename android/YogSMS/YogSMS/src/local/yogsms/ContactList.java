@@ -2,10 +2,6 @@ package local.yogsms;
 
 import java.io.InputStream;
 
-
-import android.accounts.Account;
-import android.accounts.AccountManager;
-import android.accounts.AccountsException;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.ContentUris;
