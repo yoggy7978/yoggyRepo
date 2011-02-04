@@ -12,5 +12,5 @@ public class Main extends Activity {
  		GLSurfaceView view = new GLSurfaceView(this);
    		view.setRenderer(new OpenGLRenderer());
    		setContentView(view);
-    }
+    }    
 }

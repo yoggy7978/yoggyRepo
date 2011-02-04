@@ -5,8 +5,11 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLU;
 import android.opengl.GLSurfaceView.Renderer;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnTouchListener;
 
-public class OpenGLRenderer implements Renderer {
+public class OpenGLRenderer implements Renderer, OnTouchListener {
 	/*
 	 * (non-Javadoc)
 	 *
@@ -85,4 +88,9 @@ public class OpenGLRenderer implements Renderer {
 		// Reset the modelview matrix
 		gl.glLoadIdentity();// OpenGL docs.
 	}
+	
+	public boolean onTouch(View v, MotionEvent event) {
+		event.
+		return false;
+	}  	
 }
