@@ -9,12 +9,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 public class Square {
 	// Our vertices.
-	private float vertices[] = {
-		      -1.0f,  1.0f, 0.0f,  // 0, Top Left
-		      -1.0f, -1.0f, 0.0f,  // 1, Bottom Left
-		       1.0f, -1.0f, 0.0f,  // 2, Bottom Right
-		       1.0f,  1.0f, 0.0f,  // 3, Top Right
-		};
+	private float vertices[] ;
 
 	// The order we like to connect them.
 	private short[] indices = { 0, 1, 2, 0, 2, 3 };
@@ -24,8 +19,22 @@ public class Square {
 
 	// Our index buffer.
 	private ShortBuffer indexBuffer;
-
-	public Square() {
+	private float mSize;
+	public float Positionx;
+	public float Positiony;
+	
+	public Square(float positionx,float positiony, float size) {
+		
+		Positionx = positionx;
+		Positiony = positiony;
+		
+		float tmp[] = {
+			      0.0f,  size, 0.0f,  // 0, Top Left
+			      0.0f, 0.0f, 0.0f,  // 1, Bottom Left
+			      size, 0.0f, 0.0f,  // 2, Bottom Right
+			      size,  size, 0.0f,  // 3, Top Right
+			};
+		vertices = tmp;
 		// a float is 4 bytes, therefore we multiply the number if
 		// vertices with 4.
 		ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length * 4);

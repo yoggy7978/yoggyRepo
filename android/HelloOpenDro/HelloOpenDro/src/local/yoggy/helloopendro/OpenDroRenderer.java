@@ -1,5 +1,8 @@
 package local.yoggy.helloopendro;
 
+import java.util.ArrayList;
+import java.util.concurrent.locks.ReentrantLock;
+
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
@@ -16,8 +19,11 @@ public class OpenDroRenderer implements Renderer {
          * egl.EGLConfig)
 	 */
 	// Initialize our square.
-	Square square = new Square();	
+	Square square1 = new Square(0.5f,0.5f, 1.0f);	
+	public ReentrantLock mutex = new ReentrantLock();
+	public ArrayList<Square> list = new ArrayList<Square>();
 	public void onSurfaceCreated(GL10 gl, EGLConfig config) {
+		list.add(square1);
 		// Set the background color to black ( rgba ).
 		gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);  // OpenGL docs.
 		// Enable Smooth Shading, default not really needed.
@@ -56,9 +62,16 @@ public class OpenDroRenderer implements Renderer {
 		gl.glTranslatef(0, 0, -8); // OpenGL docs
 	
 		// Draw our square.
-		square.draw(gl); // ( NEW )
+		mutex.lock();
+		for(Square square : list)
+		{
+			gl.glTranslatef(square.Positionx, square.Positiony, -8); // OpenGL docs
+			square.draw(gl); 
+			gl.glLoadIdentity(); // OpenGL docs		
+		}
+		mutex.unlock();
 		// Replace the current matrix with the identity matrix
-		gl.glLoadIdentity(); // OpenGL docs		
+		
 	}
 
 	/*

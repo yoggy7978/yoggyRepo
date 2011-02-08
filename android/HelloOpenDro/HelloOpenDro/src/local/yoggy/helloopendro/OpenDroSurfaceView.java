@@ -5,28 +5,21 @@ import android.opengl.GLSurfaceView;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
-import android.view.ScaleGestureDetector;
-import android.view.View;
+import android.view.GestureDetector.OnDoubleTapListener;
 import android.view.GestureDetector.OnGestureListener;
-import android.view.GestureDetector.SimpleOnGestureListener;
 
-public class OpenDroSurfaceView extends GLSurfaceView {
+public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListener, OnDoubleTapListener{
 
-	private MyGestureDetector mDetector;
-	private ScaleGestureDetector mScaleDetector;
 	private OpenDroRenderer mRenderer;
+	private GestureDetector mDetector;
 
 	public OpenDroSurfaceView(Context context) {
 		super(context);
-
+		
+		mDetector = new GestureDetector(this);
+		
 		mRenderer = new OpenDroRenderer();
-		setRenderer(mRenderer);
-
-		requestFocusFromTouch();
-		setFocusableInTouchMode(true);
-
-		//mDetector = new MyGestureDetector(this);
-		mScaleDetector = new ScaleGestureDetector(context, null);
+		setRenderer(mRenderer);		
 	}
 
 	@Override
@@ -37,53 +30,32 @@ public class OpenDroSurfaceView extends GLSurfaceView {
 		int x = (int) event.getX();
 		int y = (int) (getHeight() - event.getY());
 
-		Log.v(Main.TAG, "onTouchEvent event " + event.toString());
-		
-		mScaleDetector.onTouchEvent(event);
+		//Log.v(Main.TAG, "onTouchEvent event " + event.toString());
 
-		if (event.getPointerCount() == 1) {
+		mDetector.onTouchEvent(event);
+		
+		/*if (event.getPointerCount() == 1) {
 			switch (action) {
 			case MotionEvent.ACTION_DOWN:
+				Log.v(Main.TAG, "action MotionEvent.ACTION_DOWN");
 				break;
 
 			case MotionEvent.ACTION_UP:
+				Log.v(Main.TAG, "action MotionEvent.ACTION_UP");
 				break;
 
 			case MotionEvent.ACTION_CANCEL:
+				Log.v(Main.TAG, "action MotionEvent.ACTION_CANCEL");
 				break;
 
 			case MotionEvent.ACTION_MOVE:
+				Log.v(Main.TAG, "action MotionEvent.ACTION_MOVE");
 				break;
 			}
-		}
-		return super.onTouchEvent(event);
+		}*/
+		return true;
 	}
 
-	public boolean onDown(MotionEvent e) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-}
-
-class MyGestureDetector extends SimpleOnGestureListener {
-    /*@Override
-    public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-        try {
-            if (Math.abs(e1.getY() - e2.getY()) > SWIPE_MAX_OFF_PATH)
-                return false;
-            // right to left swipe
-            if(e1.getX() - e2.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
-                Toast.makeText(SelectFilterActivity.this, "Left Swipe", Toast.LENGTH_SHORT`enter code here`).show();
-            }  else if (e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
-                Toast.makeText(SelectFilterActivity.this, "Right Swipe", Toast.LENGTH_SHORT).show();
-            }
-        } catch (Exception e) {
-            // nothing
-        }
-        return false;
-    }*/
-	
-	@Override
 	public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX,
 			float velocityY) {
 		Log.v(Main.TAG, "onFling e1 " + e1.toString());
@@ -93,28 +65,46 @@ class MyGestureDetector extends SimpleOnGestureListener {
 		return false;
 	}
 
-	@Override
-	public void onLongPress(MotionEvent e) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX,
-			float distanceY) {
-		// TODO Auto-generated method stub
+	public boolean onDown(MotionEvent e) {
+		Log.v(Main.TAG, "onDown");
 		return false;
 	}
 
-	@Override
-	public void onShowPress(MotionEvent e) {
-		// TODO Auto-generated method stub
-
+	public void onLongPress(MotionEvent e) {
+		Log.v(Main.TAG, "onLongPress");		
 	}
-	
-	@Override
+
+	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX,
+			float distanceY) {
+		Log.v(Main.TAG, "onScroll");
+		return false;
+	}
+
+	public void onShowPress(MotionEvent e) {
+		Log.v(Main.TAG, "onShowPress");		
+	}
+
 	public boolean onSingleTapUp(MotionEvent e) {
-		// TODO Auto-generated method stub
+		Log.v(Main.TAG, "onSingleTapUp");
+		return false;
+	}
+
+	public boolean onDoubleTap(MotionEvent e) {
+		Log.v(Main.TAG, "onDoubleTap");
+		return false;
+	}
+
+	public boolean onDoubleTapEvent(MotionEvent e) {
+		Log.v(Main.TAG, "onDoubleTapEvent");
+		return false;
+	}
+
+	public boolean onSingleTapConfirmed(MotionEvent e) {
+		Log.v(Main.TAG, "onSingleTapConfirmed");
+		mRenderer.mutex.lock();
+		mRenderer.list.add(new Square(e.getX()/this.getWidth(), e.getY()/this.getHeight(), 1.0f));
+		mRenderer.mutex.unlock();
+		
 		return false;
 	}
 }
