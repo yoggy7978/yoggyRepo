@@ -1,6 +1,7 @@
 package local.yoggy.helloopendro;
 
 import android.content.Context;
+import android.graphics.PointF;
 import android.opengl.GLSurfaceView;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -20,15 +21,19 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 		
 		mRenderer = new OpenDroRenderer();
 		setRenderer(mRenderer);		
+		
+		mRenderer.add(new GLSquare(3.0f,3.0f, 1.0f));
+		mRenderer.add(new GLLine(new PointF(0.0f, 0.0f), new PointF(10.0f, 0.0f)));
+		mRenderer.add(new GLLine(new PointF(0.0f, 0.0f), new PointF(0.0f, 10.0f)));
 	}
 
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 
 		// Feed info to our helper class:
-		int action = event.getAction();
-		int x = (int) event.getX();
-		int y = (int) (getHeight() - event.getY());
+//		int action = event.getAction();
+	//	int x = (int) event.getX();
+		//int y = (int) (getHeight() - event.getY());
 
 		//Log.v(Main.TAG, "onTouchEvent event " + event.toString());
 
@@ -71,7 +76,9 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 	}
 
 	public void onLongPress(MotionEvent e) {
-		Log.v(Main.TAG, "onLongPress");		
+		Log.v(Main.TAG, "onLongPress");
+		mRenderer.add(new GLSquare(-3, -3, 2.0f));
+		//GLObject tmp = new GLSquare(e.getX()/this.getWidth(), e.getY()/this.getHeight(), 1.0f);
 	}
 
 	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX,
@@ -101,10 +108,6 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 
 	public boolean onSingleTapConfirmed(MotionEvent e) {
 		Log.v(Main.TAG, "onSingleTapConfirmed");
-		mRenderer.mutex.lock();
-		mRenderer.list.add(new Square(e.getX()/this.getWidth(), e.getY()/this.getHeight(), 1.0f));
-		mRenderer.mutex.unlock();
-		
 		return false;
 	}
 }
