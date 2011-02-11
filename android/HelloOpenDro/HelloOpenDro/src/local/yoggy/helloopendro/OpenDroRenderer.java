@@ -8,6 +8,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 import android.opengl.GLU;
 import android.opengl.GLSurfaceView.Renderer;
+import android.util.Log;
 
 public class OpenDroRenderer implements Renderer {
 
@@ -57,6 +58,7 @@ public class OpenDroRenderer implements Renderer {
 		mutex.lock();
 		for(GLObject obj : list)
 		{
+			Log.v(Main.TAG, obj.toString());
 			obj.draw(gl);
 		}		
 		mutex.unlock();

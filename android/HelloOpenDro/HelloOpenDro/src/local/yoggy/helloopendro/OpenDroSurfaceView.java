@@ -80,9 +80,9 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 	}
 
 	public void onLongPress(MotionEvent e) {
-		Log.v(Main.TAG, "onLongPress");
+		Log.v(Main.TAG, "onLongPress: " + e.toString());
 		
-		//GLObject tmp = new GLSquare(e.getX()/this.getWidth(), e.getY()/this.getHeight(), 1.0f);
+		mRenderer.add(new GLSquare(e.getX()/this.getWidth(), e.getY()/this.getHeight(), 10.0f));
 	}
 
 	PointF lastPoint = null;

@@ -43,5 +43,10 @@ public class GLPoint extends GLObject {
 		float tmp[] = { mPositionx , mPositiony };
 		return tmp;
 	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "POINT";
+	}
 
 }

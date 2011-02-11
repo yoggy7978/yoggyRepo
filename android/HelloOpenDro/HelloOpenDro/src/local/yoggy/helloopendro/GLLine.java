@@ -46,5 +46,10 @@ public class GLLine extends GLObject {
 				};
 		return line;
 	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "LINE";
+	}
 	
 }
