@@ -66,21 +66,21 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 
 	public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX,
 			float velocityY) {
-		Log.v(Main.TAG, "onFling e1 " + e1.toString());
-		Log.v(Main.TAG, "onFling e2 " + e2.toString());
-		Log.v(Main.TAG, "onFling velocityX " + velocityX);
-		Log.v(Main.TAG, "onFling velocityY " + velocityY);
+		//Log.v(Main.TAG, "onFling e1 " + e1.toString());
+		//Log.v(Main.TAG, "onFling e2 " + e2.toString());
+		//Log.v(Main.TAG, "onFling velocityX " + velocityX);
+		//Log.v(Main.TAG, "onFling velocityY " + velocityY);
 		return false;
 	}
 
 	public boolean onDown(MotionEvent e) {
 		Log.v(Main.TAG, "onDown");
-		lastPoint = null;
+		lastPoint = new PointF(e.getX(), e.getY());
 		return false;
 	}
 
 	public void onLongPress(MotionEvent e) {
-		Log.v(Main.TAG, "onLongPress");
+		//Log.v(Main.TAG, "onLongPress");
 		
 		//GLObject tmp = new GLSquare(e.getX()/this.getWidth(), e.getY()/this.getHeight(), 1.0f);
 	}
@@ -88,46 +88,46 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 	PointF lastPoint = null;
 	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX,
 			float distanceY) {
-		Log.v(Main.TAG, "onScroll e1 " + e1.toString());
-		Log.v(Main.TAG, "onScroll e2 " + e2.toString());
-		Log.v(Main.TAG, "onScroll distanceX " + distanceX);
-		Log.v(Main.TAG, "onScroll distanceY " + distanceY);
+		//Log.v(Main.TAG, "onScroll e1 " + e1.toString());
+		//Log.v(Main.TAG, "onScroll e2 " + e2.toString());
+		//Log.v(Main.TAG, "onScroll distanceX " + distanceX);
+		//Log.v(Main.TAG, "onScroll distanceY " + distanceY);
 		//mRenderer.add(new GLLine());
-		if(lastPoint == null)
+		/*if(lastPoint == null)
 		{
 			lastPoint = new PointF(e1.getX(), e1.getY());
 			mRenderer.add(new GLLine(lastPoint,lastPoint));
 		}
 		else
-		{
+		{*/
 			PointF newpoint = new PointF(e2.getX(), e2.getY());
 			mRenderer.add(new GLLine(lastPoint, newpoint));
 			lastPoint = newpoint;
-		}
+		//}
 		return false;
 	}
 
 	public void onShowPress(MotionEvent e) {
-		Log.v(Main.TAG, "onShowPress");		
+		//Log.v(Main.TAG, "onShowPress");		
 	}
 
 	public boolean onSingleTapUp(MotionEvent e) {
-		Log.v(Main.TAG, "onSingleTapUp");
+		//Log.v(Main.TAG, "onSingleTapUp");
 		return false;
 	}
 
 	public boolean onDoubleTap(MotionEvent e) {
-		Log.v(Main.TAG, "onDoubleTap");
+		//Log.v(Main.TAG, "onDoubleTap");
 		return false;
 	}
 
 	public boolean onDoubleTapEvent(MotionEvent e) {
-		Log.v(Main.TAG, "onDoubleTapEvent");
+		//Log.v(Main.TAG, "onDoubleTapEvent");
 		return false;
 	}
 
 	public boolean onSingleTapConfirmed(MotionEvent e) {
-		Log.v(Main.TAG, "onSingleTapConfirmed");
+		//Log.v(Main.TAG, "onSingleTapConfirmed");
 		return false;
 	}
 }
