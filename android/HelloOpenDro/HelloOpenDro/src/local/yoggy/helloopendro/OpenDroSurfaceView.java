@@ -22,9 +22,12 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 		mRenderer = new OpenDroRenderer();
 		setRenderer(mRenderer);		
 		
-		mRenderer.add(new GLSquare(3.0f,3.0f, 1.0f));
-		mRenderer.add(new GLLine(new PointF(0.0f, 0.0f), new PointF(10.0f, 0.0f)));
+		//mRenderer.add(new GLSquare(3.0f,3.0f, 1.0f));
+		
+		/*mRenderer.add(new GLLine(new PointF(0.0f, 0.0f), new PointF(10.0f, 0.0f)));*/
 		mRenderer.add(new GLLine(new PointF(0.0f, 0.0f), new PointF(0.0f, 10.0f)));
+		
+		
 	}
 
 	@Override
@@ -72,18 +75,35 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 
 	public boolean onDown(MotionEvent e) {
 		Log.v(Main.TAG, "onDown");
+		lastPoint = null;
 		return false;
 	}
 
 	public void onLongPress(MotionEvent e) {
 		Log.v(Main.TAG, "onLongPress");
-		mRenderer.add(new GLSquare(-3, -3, 2.0f));
+		
 		//GLObject tmp = new GLSquare(e.getX()/this.getWidth(), e.getY()/this.getHeight(), 1.0f);
 	}
 
+	PointF lastPoint = null;
 	public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX,
 			float distanceY) {
-		Log.v(Main.TAG, "onScroll");
+		Log.v(Main.TAG, "onScroll e1 " + e1.toString());
+		Log.v(Main.TAG, "onScroll e2 " + e2.toString());
+		Log.v(Main.TAG, "onScroll distanceX " + distanceX);
+		Log.v(Main.TAG, "onScroll distanceY " + distanceY);
+		//mRenderer.add(new GLLine());
+		if(lastPoint == null)
+		{
+			lastPoint = new PointF(e1.getX(), e1.getY());
+			mRenderer.add(new GLLine(lastPoint,lastPoint));
+		}
+		else
+		{
+			PointF newpoint = new PointF(e2.getX(), e2.getY());
+			mRenderer.add(new GLLine(lastPoint, newpoint));
+			lastPoint = newpoint;
+		}
 		return false;
 	}
 

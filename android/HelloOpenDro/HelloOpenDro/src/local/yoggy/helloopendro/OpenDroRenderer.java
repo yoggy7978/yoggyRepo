@@ -24,6 +24,8 @@ public class OpenDroRenderer implements Renderer {
 	
 	public void onSurfaceCreated(GL10 gl, EGLConfig config) {
 		
+		
+		//gl.glOrthof(left, right, bottom, top, zNear, zFar)
 		// Set the background color to black ( rgba ).
 		gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);  
 		// Enable Smooth Shading, default not really needed.
@@ -49,7 +51,7 @@ public class OpenDroRenderer implements Renderer {
 		gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
 
 		// Translates 4 units into the screen.
-		gl.glTranslatef(0, 0, -8); // OpenGL docs
+	//	gl.glTranslatef(0, 0, -8); // OpenGL docs
 	
 		// Draw our square.
 		mutex.lock();
@@ -59,11 +61,11 @@ public class OpenDroRenderer implements Renderer {
 		}		
 		mutex.unlock();
 		// Replace the current matrix with the identity matrix
-		gl.glTranslatef(0, 0, -8);
 		gl.glLoadIdentity();
 	}
 
 	public void onSurfaceChanged(GL10 gl, int width, int height) {
+		
 		// Sets the current view port to the new size.
 		gl.glViewport(0, 0, width, height);
 		// Select the projection matrix
@@ -71,7 +73,8 @@ public class OpenDroRenderer implements Renderer {
 		// Reset the projection matrix
 		gl.glLoadIdentity();
 		// Calculate the aspect ratio of the window
-		GLU.gluPerspective(gl, 45.0f, (float) width / (float) height, 0.1f, 100.0f);
+		//GLU.gluPerspective(gl, 45.0f, (float) width / (float) height, 0.1f, 100.0f);
+		gl.glOrthof(0.0f,width,height,0.0f,-1.0f,1.0f);	
 		// Select the modelview matrix
 		gl.glMatrixMode(GL10.GL_MODELVIEW);
 		// Reset the modelview matrix

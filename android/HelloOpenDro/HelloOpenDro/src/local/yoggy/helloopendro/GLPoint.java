@@ -2,22 +2,20 @@ package local.yoggy.helloopendro;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import android.graphics.PointF;
+public class GLPoint extends GLObject {
 
-public class GLLine extends GLObject {
-
-	private PointF mA, mB;
-	public GLLine(PointF A, PointF B)
-	{
-		mA = A;
-		mB = B;
-	}
+	private float mPositionx;
+	private float mPositiony;
 	
+	public GLPoint(float positionx, float positiony) {
+		super();
+		mPositionx = positionx;
+		mPositiony = positiony;
+	}
+
 	@Override
 	protected void onDraw(GL10 gl) {
-
-		gl.glColor4f(1.0f, 0.0f, 0.0f, 1.0f);
-		
+		gl.glColor4f(1.0f, 1.0f, 1.0f, 1.0f); // 0xFFFFFFFF
 		// Counter-clockwise winding.
 		gl.glFrontFace(GL10.GL_CCW);
 		// Enable face culling.
@@ -27,24 +25,23 @@ public class GLLine extends GLObject {
 	
 		gl.glVertexPointer(2, GL10.GL_FLOAT, 0, vertexBuffer);
 		gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
-		gl.glDrawArrays(GL10.GL_LINES, 0, 2);
+		gl.glDrawArrays(GL10.GL_POINTS, 0, 1);
 		
 		gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
 		// Disable face culling.
 		gl.glDisable(GL10.GL_CULL_FACE);
 	}
+
 	@Override
 	protected short[] onGetIndices() {
-		short[] tmp = {0,1};
+		short tmp[] = { 0, 1 };
 		return tmp;
 	}
+
 	@Override
 	protected float[] onGetVertices() {
-		float line[] = {
-				mA.x, mA.y, //point A
-				mB.x, mB.y, //point B
-				};
-		return line;
+		float tmp[] = { mPositionx , mPositiony };
+		return tmp;
 	}
-	
+
 }
