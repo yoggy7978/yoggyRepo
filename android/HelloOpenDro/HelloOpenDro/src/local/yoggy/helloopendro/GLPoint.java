@@ -2,15 +2,15 @@ package local.yoggy.helloopendro;
 
 import javax.microedition.khronos.opengles.GL10;
 
+import android.graphics.PointF;
+
 public class GLPoint extends GLObject {
 
-	private float mPositionx;
-	private float mPositiony;
+	private PointF mPoint;
 	
-	public GLPoint(float positionx, float positiony) {
+	public GLPoint(PointF point) {
 		super();
-		mPositionx = positionx;
-		mPositiony = positiony;
+		mPoint = point;
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class GLPoint extends GLObject {
 
 	@Override
 	protected float[] onGetVertices() {
-		float tmp[] = { mPositionx , mPositiony };
+		float tmp[] = { mPoint.x , mPoint.y };
 		return tmp;
 	}
 	@Override
@@ -48,5 +48,4 @@ public class GLPoint extends GLObject {
 		// TODO Auto-generated method stub
 		return "POINT";
 	}
-
 }

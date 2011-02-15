@@ -2,25 +2,17 @@ package local.yoggy.helloopendro;
 
 import javax.microedition.khronos.opengles.GL10;
 
+import android.graphics.PointF;
+
 public class GLSquare extends GLObject {
 
 	private float mSize;
-	private float mPositionx;
-	private float mPositiony;
+	private PointF mPosition;
 	private float mPositionz;
 
-	public GLSquare(float positionx, float positiony, float positionz, float size) {
+	public GLSquare(PointF position, float size) {
 		super();
-		mPositionx = positionx;
-		mPositiony = positiony;
-		mPositionz = positionz;
-		mSize = size;
-	
-	}
-	public GLSquare(float positionx, float positiony, float size) {
-		super();
-		mPositionx = positionx;
-		mPositiony = positiony;
+		mPosition = position;
 		mPositionz = 0.0f;
 		mSize = size;
 	}
@@ -33,10 +25,11 @@ public class GLSquare extends GLObject {
 
 	@Override
 	protected float[] onGetVertices() {
-		float tmp[] = { mPositionx, mPositiony, mPositionz, // 0, Top Left
-						0.0f, mPositiony+mSize, mPositionz, // 1, Bottom Left
-						mPositionx+mSize, 0.0f, mPositionz, // 2, Bottom Right
-						mPositionx+mSize, mPositiony+mSize, mPositionz, // 3, Top Right
+		float mSize2 = mSize/2;
+		float tmp[] = { mPosition.x-mSize2, mPosition.y-mSize2, mPositionz, // 0, Top Left
+						mPosition.x-mSize2, mPosition.y+mSize2, mPositionz, // 1, Bottom Left
+						mPosition.x+mSize2, mPosition.y+mSize2, mPositionz, // 2, Bottom Right
+						mPosition.x+mSize2, mPosition.y-mSize2, mPositionz, // 3, Top Right
 		};
 		return tmp;
 	}

@@ -6,9 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import android.opengl.GLU;
 import android.opengl.GLSurfaceView.Renderer;
-import android.util.Log;
 
 public class OpenDroRenderer implements Renderer {
 
@@ -24,8 +22,6 @@ public class OpenDroRenderer implements Renderer {
 	}	
 	
 	public void onSurfaceCreated(GL10 gl, EGLConfig config) {
-		
-		
 		//gl.glOrthof(left, right, bottom, top, zNear, zFar)
 		// Set the background color to black ( rgba ).
 		gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);  
@@ -58,7 +54,7 @@ public class OpenDroRenderer implements Renderer {
 		mutex.lock();
 		for(GLObject obj : list)
 		{
-			Log.v(Main.TAG, obj.toString());
+			//Log.v(Main.TAG, obj.toString());
 			obj.draw(gl);
 		}		
 		mutex.unlock();
