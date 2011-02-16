@@ -26,6 +26,8 @@ public class GLImage extends GLObject {
 	
 	@Override
 	protected void onDraw(GL10 gl) {
+		
+		
 		//First setup the integer array to hold texture numbers which OpenGL generates
 		int texture[] = new int[1];
 
@@ -33,15 +35,17 @@ public class GLImage extends GLObject {
 		gl.glGenTextures(1, texture, 0);
 		gl.glBindTexture(GL10.GL_TEXTURE_2D, texture[0]);
 
+
+		
 		//Setup the texture co-ordinates
 
-		FloatBuffer texcoords = FloatBuffer.wrap(this.getVertices()); 
-		gl.glTexCoordPointer(2, GL10.GL_FLOAT, 0, texcoords);
+		//FloatBuffer texcoords = FloatBuffer.wrap(this.getVertices()); 
+		gl.glTexCoordPointer(3, GL10.GL_FLOAT, 0, vertexBuffer);
 		//Bitmap wood = BitmapFactory.decodeResource(this.getContext().getResources(), R.drawable.ic_contact_picture);
 
 		//Setup optional texture parameters
 		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MIN_FILTER, GL10.GL_LINEAR);
-		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_LINEAR);
+//		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_LINEAR);
 
 		//Set the texture image
 		GLUtils.texImage2D(GL10.GL_TEXTURE_2D, 0, mImage, 0); 
@@ -49,6 +53,11 @@ public class GLImage extends GLObject {
 		//Enable texture related flags (Important)
 		gl.glEnable(GL10.GL_TEXTURE_2D);
 		gl.glEnableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
+		
+		gl.glDrawElements(GL10.GL_TEXTURE, getIndices().length, GL10.GL_UNSIGNED_SHORT, indexBuffer);
+		
+		gl.glDisableClientState(GL10.GL_TEXTURE_COORD_ARRAY); 
+		gl.glDisable(GL10.GL_TEXTURE_2D);		
 	}
 
 	@Override

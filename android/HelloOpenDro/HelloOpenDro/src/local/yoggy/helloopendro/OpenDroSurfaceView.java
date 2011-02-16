@@ -76,7 +76,7 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 		//Log.v(Main.TAG, "onDown");
 		Bitmap bmp = BitmapFactory.decodeResource(this.getContext().getResources(), R.drawable.ic_contact_picture);
 		lastPoint = new PointF(e.getX(), e.getY());
-		mRenderer.add(new GLImage(lastPoint, 10.0f, bmp));
+		mRenderer.add(new GLImage(lastPoint, bmp.getHeight(), bmp));
 		return false;
 	}
 
