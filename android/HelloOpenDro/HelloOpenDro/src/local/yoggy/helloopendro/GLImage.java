@@ -1,6 +1,6 @@
 package local.yoggy.helloopendro;
 
-import java.nio.FloatBuffer;
+
 
 import javax.microedition.khronos.opengles.GL10;
 
@@ -15,6 +15,7 @@ public class GLImage extends GLObject {
 	private PointF mPosition;
 	private float mPositionz;
 	private Bitmap mImage;
+	private int mTextureID;
 
 	public GLImage(PointF position, float size, Bitmap image) {
 		super();
@@ -22,12 +23,24 @@ public class GLImage extends GLObject {
 		mPositionz = 0.0f;
 		mSize = size;
 		mImage = image;
+		
 	}
 	
 	@Override
 	protected void onDraw(GL10 gl) {
+		//
+		int[] temp = new int[1]; 
+		gl.glGenTextures(1, temp, 0); 
+		mTextureID = temp[0]; 
+		gl.glBindTexture(GL10.GL_TEXTURE_2D, mTextureID); 
+		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MIN_FILTER, GL10.GL_NEAREST); 
+		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_NEAREST); // GL_LINEAR for quality. 
+		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_WRAP_S, GL10.GL_CLAMP_TO_EDGE); 
+		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_WRAP_T, GL10.GL_CLAMP_TO_EDGE); 
+		GLUtils.texImage2D(GL10.GL_TEXTURE_2D, 0, mImage, 0); 
+		//mImage.recycle(); 		
 		
-		
+/*		
 		//First setup the integer array to hold texture numbers which OpenGL generates
 		int texture[] = new int[1];
 
@@ -57,10 +70,10 @@ public class GLImage extends GLObject {
 		gl.glDrawElements(GL10.GL_TEXTURE, getIndices().length, GL10.GL_UNSIGNED_SHORT, indexBuffer);
 		
 		gl.glDisableClientState(GL10.GL_TEXTURE_COORD_ARRAY); 
-		gl.glDisable(GL10.GL_TEXTURE_2D);		
+		gl.glDisable(GL10.GL_TEXTURE_2D);		*/
 	}
 
-	@Override
+/*	@Override
 	protected short[] onGetIndices() {
 		short tmp[] = { 0, 1, 2, 0, 2, 3 };
 		return tmp;
@@ -75,6 +88,6 @@ public class GLImage extends GLObject {
 						mPosition.x+mSize2, mPosition.y-mSize2, mPositionz, // 3, Top Right
 		};
 		return tmp;
-	}
+	}*/
 
 }

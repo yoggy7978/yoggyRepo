@@ -25,6 +25,9 @@ public class OpenDroRenderer implements Renderer {
 		//gl.glOrthof(left, right, bottom, top, zNear, zFar)
 		// Set the background color to black ( rgba ).
 		gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);  
+		
+		gl.glEnable(GL10.GL_TEXTURE_2D);
+		
 		// Enable Smooth Shading, default not really needed.
 		gl.glShadeModel(GL10.GL_SMOOTH);
 		// Depth buffer setup.
@@ -35,7 +38,7 @@ public class OpenDroRenderer implements Renderer {
 		gl.glDepthFunc(GL10.GL_LEQUAL);
 		// Really nice perspective calculations.
 		gl.glHint(GL10.GL_PERSPECTIVE_CORRECTION_HINT, GL10.GL_NICEST);
-
+		
 		gl.glEnable (GL10.GL_LINE_SMOOTH);
 		gl.glEnable (GL10.GL_BLEND);
 		gl.glBlendFunc (GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);

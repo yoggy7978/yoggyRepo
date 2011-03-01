@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.PointF;
 import android.opengl.GLSurfaceView;
+import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.GestureDetector.OnDoubleTapListener;
@@ -23,10 +24,15 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 		mRenderer = new OpenDroRenderer();
 		setRenderer(mRenderer);		
 		
+		
+		Bitmap bmp = BitmapFactory.decodeResource(this.getContext().getResources(), R.drawable.ic_contact_picture);
+		lastPoint = new PointF(50, 50);
+		mRenderer.add(new GLImage(lastPoint, bmp.getHeight(), bmp));
+		
 		//mRenderer.add(new GLSquare(3.0f,3.0f, 1.0f));
 		
 		/*mRenderer.add(new GLLine(new PointF(0.0f, 0.0f), new PointF(10.0f, 0.0f)));*/
-		mRenderer.add(new GLLine(new PointF(0.0f, 0.0f), new PointF(0.0f, 10.0f)));
+		//mRenderer.add(new GLLine(new PointF(0.0f, 0.0f), new PointF(0.0f, 10.0f)));
 	}
 
 	@Override
@@ -74,9 +80,8 @@ public class OpenDroSurfaceView extends GLSurfaceView implements OnGestureListen
 
 	public boolean onDown(MotionEvent e) {
 		//Log.v(Main.TAG, "onDown");
-		Bitmap bmp = BitmapFactory.decodeResource(this.getContext().getResources(), R.drawable.ic_contact_picture);
-		lastPoint = new PointF(e.getX(), e.getY());
-		mRenderer.add(new GLImage(lastPoint, bmp.getHeight(), bmp));
+		//Bitmap bitmap = BitmapFactory.decodeStream(input); 
+
 		return false;
 	}
 
